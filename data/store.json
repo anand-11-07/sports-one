@@ -1,0 +1,43 @@
+{
+  "users": [],
+  "sessions": [],
+  "sports": [
+    { "id": "sp_nba", "name": "Basketball", "slug": "basketball" },
+    { "id": "sp_nfl", "name": "American Football", "slug": "american-football" },
+    { "id": "sp_mlb", "name": "Baseball", "slug": "baseball" },
+    { "id": "sp_cri", "name": "Cricket", "slug": "cricket" },
+    { "id": "sp_ten", "name": "Tennis", "slug": "tennis" }
+  ],
+  "teams": [
+    { "id": "tm_lal", "sportId": "sp_nba", "name": "Los Angeles Lakers", "slug": "los-angeles-lakers" },
+    { "id": "tm_gsw", "sportId": "sp_nba", "name": "Golden State Warriors", "slug": "golden-state-warriors" },
+    { "id": "tm_chi", "sportId": "sp_nba", "name": "Chicago Bulls", "slug": "chicago-bulls" },
+    { "id": "tm_kc", "sportId": "sp_nfl", "name": "Kansas City Chiefs", "slug": "kansas-city-chiefs" },
+    { "id": "tm_sf", "sportId": "sp_nfl", "name": "San Francisco 49ers", "slug": "san-francisco-49ers" },
+    { "id": "tm_dal", "sportId": "sp_nfl", "name": "Dallas Cowboys", "slug": "dallas-cowboys" },
+    { "id": "tm_nyy", "sportId": "sp_mlb", "name": "New York Yankees", "slug": "new-york-yankees" },
+    { "id": "tm_lad", "sportId": "sp_mlb", "name": "Los Angeles Dodgers", "slug": "los-angeles-dodgers" },
+    { "id": "tm_bos", "sportId": "sp_mlb", "name": "Boston Red Sox", "slug": "boston-red-sox" },
+    { "id": "tm_ind", "sportId": "sp_cri", "name": "India", "slug": "india-cricket" },
+    { "id": "tm_aus", "sportId": "sp_cri", "name": "Australia", "slug": "australia-cricket" },
+    { "id": "tm_eng", "sportId": "sp_cri", "name": "England", "slug": "england-cricket" }
+  ],
+  "players": [
+    { "id": "pl_lb", "sportId": "sp_nba", "teamId": "tm_lal", "name": "LeBron James" },
+    { "id": "pl_sc", "sportId": "sp_nba", "teamId": "tm_gsw", "name": "Stephen Curry" },
+    { "id": "pl_mj", "sportId": "sp_nba", "teamId": "tm_chi", "name": "Michael Jordan" },
+    { "id": "pl_pm", "sportId": "sp_nfl", "teamId": "tm_kc", "name": "Patrick Mahomes" },
+    { "id": "pl_bc", "sportId": "sp_nfl", "teamId": "tm_sf", "name": "Brock Purdy" },
+    { "id": "pl_cd", "sportId": "sp_nfl", "teamId": "tm_dal", "name": "CeeDee Lamb" },
+    { "id": "pl_ja", "sportId": "sp_mlb", "teamId": "tm_nyy", "name": "Aaron Judge" },
+    { "id": "pl_os", "sportId": "sp_mlb", "teamId": "tm_lad", "name": "Shohei Ohtani" },
+    { "id": "pl_bh", "sportId": "sp_mlb", "teamId": "tm_bos", "name": "Bobby Witt Jr." },
+    { "id": "pl_vk", "sportId": "sp_cri", "teamId": "tm_ind", "name": "Virat Kohli" },
+    { "id": "pl_ps", "sportId": "sp_cri", "teamId": "tm_aus", "name": "Pat Cummins" },
+    { "id": "pl_jr", "sportId": "sp_cri", "teamId": "tm_eng", "name": "Joe Root" },
+    { "id": "pl_nd", "sportId": "sp_ten", "teamId": null, "name": "Novak Djokovic" },
+    { "id": "pl_cr", "sportId": "sp_ten", "teamId": null, "name": "Carlos Alcaraz" },
+    { "id": "pl_ig", "sportId": "sp_ten", "teamId": null, "name": "Iga Swiatek" }
+  ],
+  "follows": []
+}

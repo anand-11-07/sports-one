@@ -1,0 +1,166 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --text: #11223b;
+  --subtle: #4c5f7b;
+  --accent: #0d6efd;
+  --accent-2: #e7f0ff;
+  --line: #d8e1ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top right, #dbe8ff 0%, var(--bg) 46%);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 780px;
+  margin: 24px auto;
+  padding: 20px;
+}
+
+.app-header h1 {
+  margin-bottom: 8px;
+}
+
+.app-header p {
+  margin-top: 0;
+  color: var(--subtle);
+}
+
+.screen {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 18px rgba(26, 48, 84, 0.08);
+}
+
+.hidden {
+  display: none;
+}
+
+.stack {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+
+input {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.secondary {
+  background: #edf1f8;
+  color: var(--text);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 8px 12px;
+}
+
+.chip.active {
+  background: var(--accent-2);
+  border-color: var(--accent);
+}
+
+.group {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.group h3 {
+  margin-top: 0;
+}
+
+.group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.message {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #eaf8ec;
+  border: 1px solid #b9e6c1;
+}
+
+.message.error {
+  background: #ffeded;
+  border-color: #f2bcbc;
+}
+
+.review {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 12px;
+  background: #f9fbff;
+}
+
+ul {
+  margin: 8px 0;
+}
+
+@media (max-width: 640px) {
+  .app {
+    margin: 10px;
+    padding: 6px;
+  }
+
+  .screen {
+    padding: 14px;
+  }
+}
