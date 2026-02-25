@@ -11,9 +11,10 @@
     <header class="app-header">
       <h1>Sports One</h1>
       <p>Track your favorite teams and sportspersons in one place.</p>
+      <p id="user-pill" class="user-pill hidden"></p>
     </header>
 
-    <section id="message" class="message hidden"></section>
+    <section id="message" class="message hidden" aria-live="polite"></section>
 
     <section id="screen-welcome" class="screen">
       <h2>Welcome</h2>
@@ -37,7 +38,7 @@
         </label>
         <label>
           Password
-          <input type="password" id="password" placeholder="At least 8 characters" minlength="8" required />
+          <input type="password" id="password" placeholder="8+ chars, include a letter and number" minlength="8" required />
         </label>
         <div class="row">
           <button type="submit" id="auth-submit">Create account</button>
@@ -80,6 +81,7 @@
       <p>Your Module 1 setup is complete. Module 2 home feed comes next.</p>
       <div id="saved-summary" class="review"></div>
       <div class="row">
+        <button data-action="edit-interests">Edit interests</button>
         <button class="secondary" data-action="logout">Log out</button>
       </div>
     </section>

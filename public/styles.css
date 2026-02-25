@@ -35,6 +35,16 @@ body {
   color: var(--subtle);
 }
 
+.user-pill {
+  display: inline-block;
+  margin: 2px 0 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #edf3ff;
+  border: 1px solid #c7d8ff;
+  font-size: 12px;
+}
+
 .screen {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -86,6 +96,12 @@ button {
 button.secondary {
   background: #edf1f8;
   color: var(--text);
+}
+
+button:disabled,
+input:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .chips {

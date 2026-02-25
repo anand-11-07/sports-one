@@ -5,6 +5,8 @@ Module 1 implementation for your idea:
 - Onboarding interests (sports, teams, players)
 - Persist interests per user
 - Home placeholder screen after setup
+- Edit interests flow from Home
+- Input validation and loading guards for smoother UX
 
 ## Run
 
@@ -16,6 +18,15 @@ npm start
 ```
 
 Open `http://localhost:3000`.
+
+## Quick QA checklist
+
+1. Sign up with invalid email: should show validation error.
+2. Sign up with weak password (no number/letter): should fail.
+3. Complete onboarding with at least one sport and optional teams/players.
+4. Refresh page after completion: should stay logged in and open Home.
+5. Click `Edit interests`, change picks, save again, verify updated summary.
+6. Log out and log in again: interests should still be saved.
 
 ## API (used by the frontend)
 

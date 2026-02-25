@@ -5,6 +5,7 @@ const state = {
   selectedTeams: new Set(),
   selectedPlayers: new Set(),
   user: null,
+  busy: false,
 };
 
 const screens = [
@@ -18,6 +19,14 @@ const screens = [
 
 function $(id) {
   return document.getElementById(id);
+}
+
+function setBusy(nextBusy) {
+  state.busy = nextBusy;
+  document.querySelectorAll('button, input').forEach((element) => {
+    if (element.id === 'message') return;
+    element.disabled = nextBusy;
+  });
 }
 
 function showMessage(message, isError = false) {
@@ -38,6 +47,17 @@ function showScreen(id) {
   screens.forEach((screenId) => {
     $(screenId).classList.toggle('hidden', screenId !== id);
   });
+}
+
+function setUserPill() {
+  const pill = $('user-pill');
+  if (state.user) {
+    pill.textContent = `Signed in as ${state.user.name} (${state.user.email})`;
+    pill.classList.remove('hidden');
+  } else {
+    pill.textContent = '';
+    pill.classList.add('hidden');
+  }
 }
 
 async function api(path, options = {}) {
@@ -63,6 +83,28 @@ function setAuthMode(mode) {
   $('name').parentElement.style.display = mode === 'signup' ? 'grid' : 'none';
 }
 
+function validateAuthPayload(payload) {
+  const email = String(payload.email || '').trim();
+  const password = String(payload.password || '');
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailRegex.test(email)) {
+    return 'Please enter a valid email address.';
+  }
+
+  if (state.mode === 'signup') {
+    if (password.length < 8 || !/[A-Za-z]/.test(password) || !/\d/.test(password)) {
+      return 'Password must be 8+ chars and include at least 1 letter and 1 number.';
+    }
+  }
+
+  if (state.mode === 'login' && password.length === 0) {
+    return 'Password is required.';
+  }
+
+  return '';
+}
+
 function renderSports() {
   const container = $('sports-list');
   container.innerHTML = '';
@@ -75,8 +117,8 @@ function renderSports() {
     btn.addEventListener('click', () => {
       if (state.selectedSports.has(sport.id)) {
         state.selectedSports.delete(sport.id);
-        sport.teams.forEach((t) => state.selectedTeams.delete(t.id));
-        sport.players.forEach((p) => state.selectedPlayers.delete(p.id));
+        sport.teams.forEach((team) => state.selectedTeams.delete(team.id));
+        sport.players.forEach((player) => state.selectedPlayers.delete(player.id));
       } else {
         state.selectedSports.add(sport.id);
       }
@@ -150,12 +192,12 @@ function renderFavorites() {
 }
 
 function entityNames() {
-  const selectedSports = state.options.filter((s) => state.selectedSports.has(s.id)).map((s) => s.name);
-  const teamMap = new Map(state.options.flatMap((s) => s.teams.map((t) => [t.id, t.name])));
-  const playerMap = new Map(state.options.flatMap((s) => s.players.map((p) => [p.id, p.name])));
+  const sports = state.options.filter((sport) => state.selectedSports.has(sport.id)).map((sport) => sport.name);
+  const teamMap = new Map(state.options.flatMap((sport) => sport.teams.map((team) => [team.id, team.name])));
+  const playerMap = new Map(state.options.flatMap((sport) => sport.players.map((player) => [player.id, player.name])));
 
   return {
-    sports: selectedSports,
+    sports,
     teams: [...state.selectedTeams].map((id) => teamMap.get(id)).filter(Boolean),
     players: [...state.selectedPlayers].map((id) => playerMap.get(id)).filter(Boolean),
   };
@@ -166,11 +208,11 @@ function renderReview(targetId) {
   const target = $(targetId);
   target.innerHTML = `
     <strong>Sports:</strong>
-    <ul>${sports.map((n) => `<li>${n}</li>`).join('') || '<li>None</li>'}</ul>
+    <ul>${sports.map((name) => `<li>${name}</li>`).join('') || '<li>None</li>'}</ul>
     <strong>Teams:</strong>
-    <ul>${teams.map((n) => `<li>${n}</li>`).join('') || '<li>None</li>'}</ul>
+    <ul>${teams.map((name) => `<li>${name}</li>`).join('') || '<li>None</li>'}</ul>
     <strong>Players:</strong>
-    <ul>${players.map((n) => `<li>${n}</li>`).join('') || '<li>None</li>'}</ul>
+    <ul>${players.map((name) => `<li>${name}</li>`).join('') || '<li>None</li>'}</ul>
   `;
 }
 
@@ -181,9 +223,12 @@ async function loadOptions() {
 }
 
 async function hydrateUser() {
+  clearMessage();
   try {
+    setBusy(true);
     const me = await api('/api/me');
     state.user = me.user;
+    setUserPill();
 
     await loadOptions();
 
@@ -201,48 +246,68 @@ async function hydrateUser() {
     }
   } catch (_) {
     state.user = null;
+    setUserPill();
     showScreen('screen-welcome');
+  } finally {
+    setBusy(false);
   }
 }
 
 $('auth-form').addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (state.busy) return;
+
   clearMessage();
 
   const payload = {
-    name: $('name').value,
-    email: $('email').value,
+    name: $('name').value.trim(),
+    email: $('email').value.trim(),
     password: $('password').value,
   };
 
+  const validationError = validateAuthPayload(payload);
+  if (validationError) {
+    showMessage(validationError, true);
+    return;
+  }
+
   try {
+    setBusy(true);
     const path = state.mode === 'signup' ? '/api/auth/signup' : '/api/auth/login';
-    await api(path, { method: 'POST', body: JSON.stringify(payload) });
+    const result = await api(path, { method: 'POST', body: JSON.stringify(payload) });
+    state.user = result.user;
+    setUserPill();
     await loadOptions();
     showScreen('screen-sports');
+    showMessage(state.mode === 'signup' ? 'Account created. Select your sports.' : 'Welcome back. Continue onboarding.');
   } catch (err) {
     showMessage(err.message, true);
+  } finally {
+    setBusy(false);
   }
 });
 
 document.addEventListener('click', async (event) => {
   const action = event.target.getAttribute('data-action');
-  if (!action) return;
+  if (!action || state.busy) return;
 
   clearMessage();
 
   if (action === 'show-signup') {
     setAuthMode('signup');
     showScreen('screen-auth');
+    return;
   }
 
   if (action === 'show-login') {
     setAuthMode('login');
     showScreen('screen-auth');
+    return;
   }
 
   if (action === 'go-back') {
     showScreen('screen-welcome');
+    return;
   }
 
   if (action === 'to-favorites') {
@@ -252,25 +317,42 @@ document.addEventListener('click', async (event) => {
     }
     renderFavorites();
     showScreen('screen-favorites');
+    return;
   }
 
   if (action === 'back-to-sports') {
     renderSports();
     showScreen('screen-sports');
+    return;
   }
 
   if (action === 'to-review') {
     renderReview('review-content');
     showScreen('screen-review');
+    return;
   }
 
   if (action === 'back-to-favorites') {
     renderFavorites();
     showScreen('screen-favorites');
+    return;
+  }
+
+  if (action === 'edit-interests') {
+    renderSports();
+    showScreen('screen-sports');
+    return;
   }
 
   if (action === 'save-interests') {
+    if (state.selectedSports.size === 0) {
+      showMessage('Please select at least one sport.', true);
+      showScreen('screen-sports');
+      return;
+    }
+
     try {
+      setBusy(true);
       await api('/api/onboarding/interests', {
         method: 'POST',
         body: JSON.stringify({
@@ -284,20 +366,29 @@ document.addEventListener('click', async (event) => {
       showMessage('Onboarding completed successfully.');
     } catch (err) {
       showMessage(err.message, true);
+    } finally {
+      setBusy(false);
     }
+    return;
   }
 
   if (action === 'logout') {
     try {
+      setBusy(true);
       await api('/api/auth/logout', { method: 'POST' });
     } catch (_) {
       // Ignore logout errors and reset UI.
+    } finally {
+      setBusy(false);
     }
+
+    state.user = null;
     state.selectedSports.clear();
     state.selectedTeams.clear();
     state.selectedPlayers.clear();
     state.options = [];
     $('auth-form').reset();
+    setUserPill();
     showScreen('screen-welcome');
     showMessage('Logged out.');
   }

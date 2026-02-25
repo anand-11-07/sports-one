@@ -61,6 +61,19 @@ function verifyPassword(password, saltedHash) {
   return crypto.timingSafeEqual(Buffer.from(hash, 'hex'), Buffer.from(attempt, 'hex'));
 }
 
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function isStrongPassword(password) {
+  return password.length >= 8 && /[A-Za-z]/.test(password) && /\d/.test(password);
+}
+
+function normalizeIdArray(value) {
+  if (!Array.isArray(value)) return [];
+  return [...new Set(value.filter((item) => typeof item === 'string'))];
+}
+
 function getSessionUser(req, store) {
   const cookies = parseCookies(req);
   const sid = cookies.sid;
@@ -110,8 +123,12 @@ async function handleApi(req, res, url) {
     const password = String(body.password || '');
     const name = String(body.name || '').trim();
 
-    if (!email || !password || password.length < 8) {
-      return sendJson(res, 400, { error: 'Valid email and 8+ char password are required.' });
+    if (!isValidEmail(email)) {
+      return sendJson(res, 400, { error: 'Please enter a valid email address.' });
+    }
+
+    if (!isStrongPassword(password)) {
+      return sendJson(res, 400, { error: 'Password must be 8+ chars and include at least 1 letter and 1 number.' });
     }
 
     if (store.users.some((u) => u.email === email)) {
@@ -131,7 +148,8 @@ async function handleApi(req, res, url) {
     store.sessions.push({ id: sid, userId: user.id, createdAt: new Date().toISOString() });
     writeStore(store);
 
-    res.setHeader('Set-Cookie', `sid=${encodeURIComponent(sid)}; HttpOnly; SameSite=Lax; Path=/`);
+    const secure = process.env.NODE_ENV === 'production' ? '; Secure' : '';
+    res.setHeader('Set-Cookie', `sid=${encodeURIComponent(sid)}; HttpOnly; SameSite=Lax; Path=/${secure}`);
     return sendJson(res, 201, {
       user: { id: user.id, email: user.email, name: user.name },
     });
@@ -142,6 +160,10 @@ async function handleApi(req, res, url) {
     const email = String(body.email || '').toLowerCase().trim();
     const password = String(body.password || '');
 
+    if (!isValidEmail(email)) {
+      return sendJson(res, 400, { error: 'Please enter a valid email address.' });
+    }
+
     const user = store.users.find((u) => u.email === email);
     if (!user || !verifyPassword(password, user.passwordHash)) {
       return sendJson(res, 401, { error: 'Invalid credentials.' });
@@ -151,7 +173,8 @@ async function handleApi(req, res, url) {
     store.sessions.push({ id: sid, userId: user.id, createdAt: new Date().toISOString() });
     writeStore(store);
 
-    res.setHeader('Set-Cookie', `sid=${encodeURIComponent(sid)}; HttpOnly; SameSite=Lax; Path=/`);
+    const secure = process.env.NODE_ENV === 'production' ? '; Secure' : '';
+    res.setHeader('Set-Cookie', `sid=${encodeURIComponent(sid)}; HttpOnly; SameSite=Lax; Path=/${secure}`);
     return sendJson(res, 200, {
       user: { id: user.id, email: user.email, name: user.name },
     });
@@ -182,9 +205,9 @@ async function handleApi(req, res, url) {
   if (req.method === 'POST' && url.pathname === '/api/onboarding/interests') {
     if (!user) return sendJson(res, 401, { error: 'Unauthorized' });
     const body = await parseJsonBody(req);
-    const sportIds = Array.isArray(body.sportIds) ? body.sportIds : [];
-    const teamIds = Array.isArray(body.teamIds) ? body.teamIds : [];
-    const playerIds = Array.isArray(body.playerIds) ? body.playerIds : [];
+    const sportIds = normalizeIdArray(body.sportIds);
+    const teamIds = normalizeIdArray(body.teamIds);
+    const playerIds = normalizeIdArray(body.playerIds);
 
     if (sportIds.length === 0) {
       return sendJson(res, 400, { error: 'Select at least one sport.' });
@@ -194,26 +217,33 @@ async function handleApi(req, res, url) {
     const validTeamIds = new Set(store.teams.map((t) => t.id));
     const validPlayerIds = new Set(store.players.map((p) => p.id));
 
-    const invalid = [
+    const invalidIds = [
       ...sportIds.filter((id) => !validSportIds.has(id)),
       ...teamIds.filter((id) => !validTeamIds.has(id)),
       ...playerIds.filter((id) => !validPlayerIds.has(id)),
     ];
 
-    if (invalid.length > 0) {
+    if (invalidIds.length > 0) {
       return sendJson(res, 400, { error: 'Invalid interest ids in request.' });
+    }
+
+    const selectedSportIds = new Set(sportIds);
+    const invalidTeamScope = store.teams.some((team) => teamIds.includes(team.id) && !selectedSportIds.has(team.sportId));
+    const invalidPlayerScope = store.players.some((player) => playerIds.includes(player.id) && !selectedSportIds.has(player.sportId));
+    if (invalidTeamScope || invalidPlayerScope) {
+      return sendJson(res, 400, { error: 'Teams and players must belong to selected sports.' });
     }
 
     store.follows = store.follows.filter((f) => f.userId !== user.id);
     const now = new Date().toISOString();
 
-    for (const sportId of new Set(sportIds)) {
+    for (const sportId of sportIds) {
       store.follows.push({ id: newId('fol'), userId: user.id, entityType: 'sport', entityId: sportId, createdAt: now });
     }
-    for (const teamId of new Set(teamIds)) {
+    for (const teamId of teamIds) {
       store.follows.push({ id: newId('fol'), userId: user.id, entityType: 'team', entityId: teamId, createdAt: now });
     }
-    for (const playerId of new Set(playerIds)) {
+    for (const playerId of playerIds) {
       store.follows.push({ id: newId('fol'), userId: user.id, entityType: 'player', entityId: playerId, createdAt: now });
     }
 
