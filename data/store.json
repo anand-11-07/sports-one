@@ -1,43 +1,234 @@
 {
-  "users": [],
-  "sessions": [],
+  "users": [
+    {
+      "id": "usr_68458141cf3af0db",
+      "email": "anand11072001@gmail.com",
+      "name": "Anand Patwa",
+      "passwordHash": "7e219f3a3f4ce114e0041435c0220374:188abfe17e77289c9febe790c951abc02a7a7a83eaebf242ab8da3fa8cf45d8d2bd736b273f185cba8f605b2343f4a8019fc269be2147709520740f9838d7c60",
+      "createdAt": "2026-02-25T15:04:58.011Z"
+    },
+    {
+      "id": "usr_4df1d6ad2b3845b1",
+      "email": "a@d.r",
+      "name": "krgn rig org 0950945)()*&*",
+      "passwordHash": "4106d45d77f97c210520258623e568a2:58175cfdd28801573956a195a6635365f548fe5a22e63ef9def9e910bdf2a9623a8d9bea232832a9dd2baa11b6058da22e9f88887c0629292d1c7ccbc7bd9fae",
+      "createdAt": "2026-02-25T15:07:55.568Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sid_9f29dfea3320276e",
+      "userId": "usr_4df1d6ad2b3845b1",
+      "createdAt": "2026-02-25T15:07:55.568Z"
+    }
+  ],
   "sports": [
-    { "id": "sp_nba", "name": "Basketball", "slug": "basketball" },
-    { "id": "sp_nfl", "name": "American Football", "slug": "american-football" },
-    { "id": "sp_mlb", "name": "Baseball", "slug": "baseball" },
-    { "id": "sp_cri", "name": "Cricket", "slug": "cricket" },
-    { "id": "sp_ten", "name": "Tennis", "slug": "tennis" }
+    {
+      "id": "sp_nba",
+      "name": "Basketball",
+      "slug": "basketball"
+    },
+    {
+      "id": "sp_nfl",
+      "name": "American Football",
+      "slug": "american-football"
+    },
+    {
+      "id": "sp_mlb",
+      "name": "Baseball",
+      "slug": "baseball"
+    },
+    {
+      "id": "sp_cri",
+      "name": "Cricket",
+      "slug": "cricket"
+    },
+    {
+      "id": "sp_ten",
+      "name": "Tennis",
+      "slug": "tennis"
+    }
   ],
   "teams": [
-    { "id": "tm_lal", "sportId": "sp_nba", "name": "Los Angeles Lakers", "slug": "los-angeles-lakers" },
-    { "id": "tm_gsw", "sportId": "sp_nba", "name": "Golden State Warriors", "slug": "golden-state-warriors" },
-    { "id": "tm_chi", "sportId": "sp_nba", "name": "Chicago Bulls", "slug": "chicago-bulls" },
-    { "id": "tm_kc", "sportId": "sp_nfl", "name": "Kansas City Chiefs", "slug": "kansas-city-chiefs" },
-    { "id": "tm_sf", "sportId": "sp_nfl", "name": "San Francisco 49ers", "slug": "san-francisco-49ers" },
-    { "id": "tm_dal", "sportId": "sp_nfl", "name": "Dallas Cowboys", "slug": "dallas-cowboys" },
-    { "id": "tm_nyy", "sportId": "sp_mlb", "name": "New York Yankees", "slug": "new-york-yankees" },
-    { "id": "tm_lad", "sportId": "sp_mlb", "name": "Los Angeles Dodgers", "slug": "los-angeles-dodgers" },
-    { "id": "tm_bos", "sportId": "sp_mlb", "name": "Boston Red Sox", "slug": "boston-red-sox" },
-    { "id": "tm_ind", "sportId": "sp_cri", "name": "India", "slug": "india-cricket" },
-    { "id": "tm_aus", "sportId": "sp_cri", "name": "Australia", "slug": "australia-cricket" },
-    { "id": "tm_eng", "sportId": "sp_cri", "name": "England", "slug": "england-cricket" }
+    {
+      "id": "tm_lal",
+      "sportId": "sp_nba",
+      "name": "Los Angeles Lakers",
+      "slug": "los-angeles-lakers"
+    },
+    {
+      "id": "tm_gsw",
+      "sportId": "sp_nba",
+      "name": "Golden State Warriors",
+      "slug": "golden-state-warriors"
+    },
+    {
+      "id": "tm_chi",
+      "sportId": "sp_nba",
+      "name": "Chicago Bulls",
+      "slug": "chicago-bulls"
+    },
+    {
+      "id": "tm_kc",
+      "sportId": "sp_nfl",
+      "name": "Kansas City Chiefs",
+      "slug": "kansas-city-chiefs"
+    },
+    {
+      "id": "tm_sf",
+      "sportId": "sp_nfl",
+      "name": "San Francisco 49ers",
+      "slug": "san-francisco-49ers"
+    },
+    {
+      "id": "tm_dal",
+      "sportId": "sp_nfl",
+      "name": "Dallas Cowboys",
+      "slug": "dallas-cowboys"
+    },
+    {
+      "id": "tm_nyy",
+      "sportId": "sp_mlb",
+      "name": "New York Yankees",
+      "slug": "new-york-yankees"
+    },
+    {
+      "id": "tm_lad",
+      "sportId": "sp_mlb",
+      "name": "Los Angeles Dodgers",
+      "slug": "los-angeles-dodgers"
+    },
+    {
+      "id": "tm_bos",
+      "sportId": "sp_mlb",
+      "name": "Boston Red Sox",
+      "slug": "boston-red-sox"
+    },
+    {
+      "id": "tm_ind",
+      "sportId": "sp_cri",
+      "name": "India",
+      "slug": "india-cricket"
+    },
+    {
+      "id": "tm_aus",
+      "sportId": "sp_cri",
+      "name": "Australia",
+      "slug": "australia-cricket"
+    },
+    {
+      "id": "tm_eng",
+      "sportId": "sp_cri",
+      "name": "England",
+      "slug": "england-cricket"
+    }
   ],
   "players": [
-    { "id": "pl_lb", "sportId": "sp_nba", "teamId": "tm_lal", "name": "LeBron James" },
-    { "id": "pl_sc", "sportId": "sp_nba", "teamId": "tm_gsw", "name": "Stephen Curry" },
-    { "id": "pl_mj", "sportId": "sp_nba", "teamId": "tm_chi", "name": "Michael Jordan" },
-    { "id": "pl_pm", "sportId": "sp_nfl", "teamId": "tm_kc", "name": "Patrick Mahomes" },
-    { "id": "pl_bc", "sportId": "sp_nfl", "teamId": "tm_sf", "name": "Brock Purdy" },
-    { "id": "pl_cd", "sportId": "sp_nfl", "teamId": "tm_dal", "name": "CeeDee Lamb" },
-    { "id": "pl_ja", "sportId": "sp_mlb", "teamId": "tm_nyy", "name": "Aaron Judge" },
-    { "id": "pl_os", "sportId": "sp_mlb", "teamId": "tm_lad", "name": "Shohei Ohtani" },
-    { "id": "pl_bh", "sportId": "sp_mlb", "teamId": "tm_bos", "name": "Bobby Witt Jr." },
-    { "id": "pl_vk", "sportId": "sp_cri", "teamId": "tm_ind", "name": "Virat Kohli" },
-    { "id": "pl_ps", "sportId": "sp_cri", "teamId": "tm_aus", "name": "Pat Cummins" },
-    { "id": "pl_jr", "sportId": "sp_cri", "teamId": "tm_eng", "name": "Joe Root" },
-    { "id": "pl_nd", "sportId": "sp_ten", "teamId": null, "name": "Novak Djokovic" },
-    { "id": "pl_cr", "sportId": "sp_ten", "teamId": null, "name": "Carlos Alcaraz" },
-    { "id": "pl_ig", "sportId": "sp_ten", "teamId": null, "name": "Iga Swiatek" }
+    {
+      "id": "pl_lb",
+      "sportId": "sp_nba",
+      "teamId": "tm_lal",
+      "name": "LeBron James"
+    },
+    {
+      "id": "pl_sc",
+      "sportId": "sp_nba",
+      "teamId": "tm_gsw",
+      "name": "Stephen Curry"
+    },
+    {
+      "id": "pl_mj",
+      "sportId": "sp_nba",
+      "teamId": "tm_chi",
+      "name": "Michael Jordan"
+    },
+    {
+      "id": "pl_pm",
+      "sportId": "sp_nfl",
+      "teamId": "tm_kc",
+      "name": "Patrick Mahomes"
+    },
+    {
+      "id": "pl_bc",
+      "sportId": "sp_nfl",
+      "teamId": "tm_sf",
+      "name": "Brock Purdy"
+    },
+    {
+      "id": "pl_cd",
+      "sportId": "sp_nfl",
+      "teamId": "tm_dal",
+      "name": "CeeDee Lamb"
+    },
+    {
+      "id": "pl_ja",
+      "sportId": "sp_mlb",
+      "teamId": "tm_nyy",
+      "name": "Aaron Judge"
+    },
+    {
+      "id": "pl_os",
+      "sportId": "sp_mlb",
+      "teamId": "tm_lad",
+      "name": "Shohei Ohtani"
+    },
+    {
+      "id": "pl_bh",
+      "sportId": "sp_mlb",
+      "teamId": "tm_bos",
+      "name": "Bobby Witt Jr."
+    },
+    {
+      "id": "pl_vk",
+      "sportId": "sp_cri",
+      "teamId": "tm_ind",
+      "name": "Virat Kohli"
+    },
+    {
+      "id": "pl_ps",
+      "sportId": "sp_cri",
+      "teamId": "tm_aus",
+      "name": "Pat Cummins"
+    },
+    {
+      "id": "pl_jr",
+      "sportId": "sp_cri",
+      "teamId": "tm_eng",
+      "name": "Joe Root"
+    },
+    {
+      "id": "pl_nd",
+      "sportId": "sp_ten",
+      "teamId": null,
+      "name": "Novak Djokovic"
+    },
+    {
+      "id": "pl_cr",
+      "sportId": "sp_ten",
+      "teamId": null,
+      "name": "Carlos Alcaraz"
+    },
+    {
+      "id": "pl_ig",
+      "sportId": "sp_ten",
+      "teamId": null,
+      "name": "Iga Swiatek"
+    }
   ],
-  "follows": []
+  "follows": [
+    {
+      "id": "fol_c92f8f3dee73473d",
+      "userId": "usr_68458141cf3af0db",
+      "entityType": "sport",
+      "entityId": "sp_cri",
+      "createdAt": "2026-02-25T15:05:50.266Z"
+    },
+    {
+      "id": "fol_72aac01d7e45754d",
+      "userId": "usr_68458141cf3af0db",
+      "entityType": "team",
+      "entityId": "tm_ind",
+      "createdAt": "2026-02-25T15:05:50.266Z"
+    }
+  ]
 }

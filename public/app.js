@@ -222,6 +222,13 @@ async function loadOptions() {
   renderSports();
 }
 
+async function loadSavedInterests() {
+  const interests = await api('/api/me/interests');
+  state.selectedSports = new Set(interests.sportIds || []);
+  state.selectedTeams = new Set(interests.teamIds || []);
+  state.selectedPlayers = new Set(interests.playerIds || []);
+}
+
 async function hydrateUser() {
   clearMessage();
   try {
@@ -231,11 +238,7 @@ async function hydrateUser() {
     setUserPill();
 
     await loadOptions();
-
-    const interests = await api('/api/me/interests');
-    state.selectedSports = new Set(interests.sportIds || []);
-    state.selectedTeams = new Set(interests.teamIds || []);
-    state.selectedPlayers = new Set(interests.playerIds || []);
+    await loadSavedInterests();
 
     if (state.selectedSports.size > 0) {
       renderReview('saved-summary');
@@ -278,8 +281,16 @@ $('auth-form').addEventListener('submit', async (event) => {
     state.user = result.user;
     setUserPill();
     await loadOptions();
-    showScreen('screen-sports');
-    showMessage(state.mode === 'signup' ? 'Account created. Select your sports.' : 'Welcome back. Continue onboarding.');
+    await loadSavedInterests();
+
+    if (state.selectedSports.size > 0) {
+      renderReview('saved-summary');
+      showScreen('screen-home');
+      showMessage('Welcome back. Your saved preferences are loaded.');
+    } else {
+      showScreen('screen-sports');
+      showMessage(state.mode === 'signup' ? 'Account created. Select your sports.' : 'Welcome back. Continue onboarding.');
+    }
   } catch (err) {
     showMessage(err.message, true);
   } finally {
