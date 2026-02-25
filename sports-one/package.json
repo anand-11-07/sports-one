@@ -1,0 +1,9 @@
+{
+  "name": "sports-one-module1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Module 1 prototype for Sports One (auth + onboarding)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

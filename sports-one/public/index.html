@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports One | Module 1</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>Sports One</h1>
+      <p>Track your favorite teams and sportspersons in one place.</p>
+    </header>
+
+    <section id="message" class="message hidden"></section>
+
+    <section id="screen-welcome" class="screen">
+      <h2>Welcome</h2>
+      <p>Start by creating your account or logging in.</p>
+      <div class="row">
+        <button data-action="show-signup">Sign Up</button>
+        <button class="secondary" data-action="show-login">Log In</button>
+      </div>
+    </section>
+
+    <section id="screen-auth" class="screen hidden">
+      <h2 id="auth-title">Sign Up</h2>
+      <form id="auth-form" class="stack">
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your name" />
+        </label>
+        <label>
+          Email
+          <input type="email" id="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Password
+          <input type="password" id="password" placeholder="At least 8 characters" minlength="8" required />
+        </label>
+        <div class="row">
+          <button type="submit" id="auth-submit">Create account</button>
+          <button type="button" class="secondary" data-action="go-back">Back</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="screen-sports" class="screen hidden">
+      <h2>Select Sports</h2>
+      <p>Choose at least one sport.</p>
+      <div id="sports-list" class="chips"></div>
+      <div class="row">
+        <button data-action="to-favorites">Continue</button>
+        <button class="secondary" data-action="logout">Log out</button>
+      </div>
+    </section>
+
+    <section id="screen-favorites" class="screen hidden">
+      <h2>Select Favorites</h2>
+      <p>Pick teams and players inside your selected sports.</p>
+      <div id="favorites-wrap" class="stack"></div>
+      <div class="row">
+        <button data-action="to-review">Review</button>
+        <button class="secondary" data-action="back-to-sports">Back</button>
+      </div>
+    </section>
+
+    <section id="screen-review" class="screen hidden">
+      <h2>Review Interests</h2>
+      <div id="review-content" class="review"></div>
+      <div class="row">
+        <button data-action="save-interests">Finish Setup</button>
+        <button class="secondary" data-action="back-to-favorites">Back</button>
+      </div>
+    </section>
+
+    <section id="screen-home" class="screen hidden">
+      <h2>Home</h2>
+      <p>Your Module 1 setup is complete. Module 2 home feed comes next.</p>
+      <div id="saved-summary" class="review"></div>
+      <div class="row">
+        <button class="secondary" data-action="logout">Log out</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
