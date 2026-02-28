@@ -8,227 +8,6841 @@
       "createdAt": "2026-02-25T15:04:58.011Z"
     },
     {
-      "id": "usr_4df1d6ad2b3845b1",
-      "email": "a@d.r",
-      "name": "krgn rig org 0950945)()*&*",
-      "passwordHash": "4106d45d77f97c210520258623e568a2:58175cfdd28801573956a195a6635365f548fe5a22e63ef9def9e910bdf2a9623a8d9bea232832a9dd2baa11b6058da22e9f88887c0629292d1c7ccbc7bd9fae",
-      "createdAt": "2026-02-25T15:07:55.568Z"
+      "id": "usr_411b7dbf3fad6b0b",
+      "email": "newsnow1772264031@example.com",
+      "name": "News Now",
+      "passwordHash": "333a2a184e5c23e6aa0878425a4fe504:78b7af72e8353168d4f4287d0718c0e11bed7c59366d25c0b4a239b5af63c45a71552b7e72d4ffb5b773ea8fb2757efccd60d93073694020fb04ba2b41aba6d8",
+      "createdAt": "2026-02-28T07:33:51.580Z"
     }
   ],
   "sessions": [
     {
-      "id": "sid_9f29dfea3320276e",
-      "userId": "usr_4df1d6ad2b3845b1",
-      "createdAt": "2026-02-25T15:07:55.568Z"
+      "id": "sid_43c531601d06f588",
+      "userId": "usr_68458141cf3af0db",
+      "createdAt": "2026-02-28T05:56:17.918Z"
+    },
+    {
+      "id": "sid_1fb2dc1b317a29cb",
+      "userId": "usr_68458141cf3af0db",
+      "createdAt": "2026-02-28T06:19:21.487Z"
+    },
+    {
+      "id": "sid_8a3036e1408e79bd",
+      "userId": "usr_68458141cf3af0db",
+      "createdAt": "2026-02-28T06:27:56.510Z"
+    },
+    {
+      "id": "sid_272bb641edfffed6",
+      "userId": "usr_411b7dbf3fad6b0b",
+      "createdAt": "2026-02-28T07:33:51.581Z"
     }
   ],
   "sports": [
     {
-      "id": "sp_nba",
+      "id": "sp_basketball",
       "name": "Basketball",
-      "slug": "basketball"
+      "slug": "basketball",
+      "isPopular": true
     },
     {
-      "id": "sp_nfl",
+      "id": "sp_american_football",
       "name": "American Football",
-      "slug": "american-football"
+      "slug": "american-football",
+      "isPopular": true
     },
     {
-      "id": "sp_mlb",
+      "id": "sp_baseball",
       "name": "Baseball",
-      "slug": "baseball"
+      "slug": "baseball",
+      "isPopular": true
     },
     {
-      "id": "sp_cri",
+      "id": "sp_cricket",
       "name": "Cricket",
-      "slug": "cricket"
+      "slug": "cricket",
+      "isPopular": true
     },
     {
-      "id": "sp_ten",
+      "id": "sp_tennis",
       "name": "Tennis",
-      "slug": "tennis"
+      "slug": "tennis",
+      "isPopular": true
+    },
+    {
+      "id": "sp_soccer",
+      "name": "Soccer",
+      "slug": "soccer",
+      "isPopular": true,
+      "externalSource": "sportsdb",
+      "externalId": "102"
+    },
+    {
+      "id": "sp_formula_1",
+      "name": "Formula 1",
+      "slug": "formula-1",
+      "isPopular": true
+    },
+    {
+      "id": "sp_mixed_martial_arts",
+      "name": "Mixed Martial Arts",
+      "slug": "mma",
+      "isPopular": true
+    },
+    {
+      "id": "sp_golf",
+      "name": "Golf",
+      "slug": "golf",
+      "isPopular": true
+    },
+    {
+      "id": "sp_ice_hockey",
+      "name": "Ice Hockey",
+      "slug": "ice-hockey",
+      "isPopular": true
+    },
+    {
+      "id": "sp_boxing",
+      "name": "Boxing",
+      "slug": "boxing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_professional_wrestling",
+      "name": "Professional Wrestling",
+      "slug": "professional-wrestling",
+      "isPopular": false
+    },
+    {
+      "id": "sp_badminton",
+      "name": "Badminton",
+      "slug": "badminton",
+      "isPopular": false
+    },
+    {
+      "id": "sp_table_tennis",
+      "name": "Table Tennis",
+      "slug": "table-tennis",
+      "isPopular": false
+    },
+    {
+      "id": "sp_volleyball",
+      "name": "Volleyball",
+      "slug": "volleyball",
+      "isPopular": false
+    },
+    {
+      "id": "sp_beach_volleyball",
+      "name": "Beach Volleyball",
+      "slug": "beach-volleyball",
+      "isPopular": false
+    },
+    {
+      "id": "sp_handball",
+      "name": "Handball",
+      "slug": "handball",
+      "isPopular": false
+    },
+    {
+      "id": "sp_rugby",
+      "name": "Rugby",
+      "slug": "rugby",
+      "isPopular": false
+    },
+    {
+      "id": "sp_rugby_sevens",
+      "name": "Rugby Sevens",
+      "slug": "rugby-sevens",
+      "isPopular": false
+    },
+    {
+      "id": "sp_lacrosse",
+      "name": "Lacrosse",
+      "slug": "lacrosse",
+      "isPopular": false
+    },
+    {
+      "id": "sp_squash",
+      "name": "Squash",
+      "slug": "squash",
+      "isPopular": false
+    },
+    {
+      "id": "sp_snooker",
+      "name": "Snooker",
+      "slug": "snooker",
+      "isPopular": false
+    },
+    {
+      "id": "sp_darts",
+      "name": "Darts",
+      "slug": "darts",
+      "isPopular": false
+    },
+    {
+      "id": "sp_cycling",
+      "name": "Cycling",
+      "slug": "cycling",
+      "isPopular": false
+    },
+    {
+      "id": "sp_triathlon",
+      "name": "Triathlon",
+      "slug": "triathlon",
+      "isPopular": false
+    },
+    {
+      "id": "sp_swimming",
+      "name": "Swimming",
+      "slug": "swimming",
+      "isPopular": false
+    },
+    {
+      "id": "sp_athletics",
+      "name": "Athletics",
+      "slug": "athletics",
+      "isPopular": false
+    },
+    {
+      "id": "sp_gymnastics",
+      "name": "Gymnastics",
+      "slug": "gymnastics",
+      "isPopular": false
+    },
+    {
+      "id": "sp_weightlifting",
+      "name": "Weightlifting",
+      "slug": "weightlifting",
+      "isPopular": false
+    },
+    {
+      "id": "sp_powerlifting",
+      "name": "Powerlifting",
+      "slug": "powerlifting",
+      "isPopular": false
+    },
+    {
+      "id": "sp_bowling",
+      "name": "Bowling",
+      "slug": "bowling",
+      "isPopular": false
+    },
+    {
+      "id": "sp_sport_climbing",
+      "name": "Sport Climbing",
+      "slug": "sport-climbing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_skateboarding",
+      "name": "Skateboarding",
+      "slug": "skateboarding",
+      "isPopular": false
+    },
+    {
+      "id": "sp_surfing",
+      "name": "Surfing",
+      "slug": "surfing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_rowing",
+      "name": "Rowing",
+      "slug": "rowing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_canoe_sprint",
+      "name": "Canoe Sprint",
+      "slug": "canoe-sprint",
+      "isPopular": false
+    },
+    {
+      "id": "sp_judo",
+      "name": "Judo",
+      "slug": "judo",
+      "isPopular": false
+    },
+    {
+      "id": "sp_taekwondo",
+      "name": "Taekwondo",
+      "slug": "taekwondo",
+      "isPopular": false
+    },
+    {
+      "id": "sp_wrestling",
+      "name": "Wrestling",
+      "slug": "wrestling",
+      "isPopular": false
+    },
+    {
+      "id": "sp_archery",
+      "name": "Archery",
+      "slug": "archery",
+      "isPopular": false
+    },
+    {
+      "id": "sp_fencing",
+      "name": "Fencing",
+      "slug": "fencing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_equestrian",
+      "name": "Equestrian",
+      "slug": "equestrian",
+      "isPopular": false
+    },
+    {
+      "id": "sp_shooting",
+      "name": "Shooting",
+      "slug": "shooting",
+      "isPopular": false
+    },
+    {
+      "id": "sp_skiing",
+      "name": "Skiing",
+      "slug": "skiing",
+      "isPopular": false
+    },
+    {
+      "id": "sp_snowboarding",
+      "name": "Snowboarding",
+      "slug": "snowboarding",
+      "isPopular": false
+    },
+    {
+      "id": "sp_curling",
+      "name": "Curling",
+      "slug": "curling",
+      "isPopular": false
+    },
+    {
+      "id": "sp_esports",
+      "name": "Esports",
+      "slug": "esports",
+      "isPopular": false
     }
   ],
   "teams": [
     {
-      "id": "tm_lal",
-      "sportId": "sp_nba",
-      "name": "Los Angeles Lakers",
-      "slug": "los-angeles-lakers"
+      "id": "tm_1dd59c96",
+      "sportId": "sp_soccer",
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "externalSource": "sportsdb",
+      "externalId": "133604"
     },
     {
-      "id": "tm_gsw",
-      "sportId": "sp_nba",
-      "name": "Golden State Warriors",
-      "slug": "golden-state-warriors"
+      "id": "tm_e061ce27",
+      "sportId": "sp_soccer",
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "externalSource": "sportsdb",
+      "externalId": "133601"
     },
     {
-      "id": "tm_chi",
-      "sportId": "sp_nba",
-      "name": "Chicago Bulls",
-      "slug": "chicago-bulls"
+      "id": "tm_ba3fed98",
+      "sportId": "sp_soccer",
+      "name": "Bournemouth",
+      "slug": "bournemouth",
+      "externalSource": "sportsdb",
+      "externalId": "134301"
     },
     {
-      "id": "tm_kc",
-      "sportId": "sp_nfl",
-      "name": "Kansas City Chiefs",
-      "slug": "kansas-city-chiefs"
+      "id": "tm_d1c97cf3",
+      "sportId": "sp_soccer",
+      "name": "Brentford",
+      "slug": "brentford",
+      "externalSource": "sportsdb",
+      "externalId": "134355"
     },
     {
-      "id": "tm_sf",
-      "sportId": "sp_nfl",
-      "name": "San Francisco 49ers",
-      "slug": "san-francisco-49ers"
+      "id": "tm_0341e32e",
+      "sportId": "sp_soccer",
+      "name": "Brighton and Hove Albion",
+      "slug": "brighton-and-hove-albion",
+      "externalSource": "sportsdb",
+      "externalId": "133619"
     },
     {
-      "id": "tm_dal",
-      "sportId": "sp_nfl",
-      "name": "Dallas Cowboys",
-      "slug": "dallas-cowboys"
+      "id": "tm_8af60797",
+      "sportId": "sp_soccer",
+      "name": "Burnley",
+      "slug": "burnley",
+      "externalSource": "sportsdb",
+      "externalId": "133623"
     },
     {
-      "id": "tm_nyy",
-      "sportId": "sp_mlb",
-      "name": "New York Yankees",
-      "slug": "new-york-yankees"
+      "id": "tm_307f43ab",
+      "sportId": "sp_soccer",
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "externalSource": "sportsdb",
+      "externalId": "133610"
     },
     {
-      "id": "tm_lad",
-      "sportId": "sp_mlb",
-      "name": "Los Angeles Dodgers",
-      "slug": "los-angeles-dodgers"
+      "id": "tm_c3f5e865",
+      "sportId": "sp_soccer",
+      "name": "Crystal Palace",
+      "slug": "crystal-palace",
+      "externalSource": "sportsdb",
+      "externalId": "133632"
     },
     {
-      "id": "tm_bos",
-      "sportId": "sp_mlb",
-      "name": "Boston Red Sox",
-      "slug": "boston-red-sox"
+      "id": "tm_d135f64f",
+      "sportId": "sp_soccer",
+      "name": "Everton",
+      "slug": "everton",
+      "externalSource": "sportsdb",
+      "externalId": "133615"
     },
     {
-      "id": "tm_ind",
-      "sportId": "sp_cri",
-      "name": "India",
-      "slug": "india-cricket"
+      "id": "tm_683e56d7",
+      "sportId": "sp_soccer",
+      "name": "Fulham",
+      "slug": "fulham",
+      "externalSource": "sportsdb",
+      "externalId": "133600"
     },
     {
-      "id": "tm_aus",
-      "sportId": "sp_cri",
-      "name": "Australia",
-      "slug": "australia-cricket"
+      "id": "tm_f6c81fd6",
+      "sportId": "sp_soccer",
+      "name": "Leeds United",
+      "slug": "leeds-united",
+      "externalSource": "sportsdb",
+      "externalId": "133635"
     },
     {
-      "id": "tm_eng",
-      "sportId": "sp_cri",
-      "name": "England",
-      "slug": "england-cricket"
+      "id": "tm_63688d75",
+      "sportId": "sp_soccer",
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "externalSource": "sportsdb",
+      "externalId": "133602"
+    },
+    {
+      "id": "tm_758c14eb",
+      "sportId": "sp_soccer",
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "externalSource": "sportsdb",
+      "externalId": "133613"
+    },
+    {
+      "id": "tm_ddd7dc20",
+      "sportId": "sp_soccer",
+      "name": "Manchester United",
+      "slug": "manchester-united",
+      "externalSource": "sportsdb",
+      "externalId": "133612"
+    },
+    {
+      "id": "tm_517455aa",
+      "sportId": "sp_soccer",
+      "name": "Newcastle United",
+      "slug": "newcastle-united",
+      "externalSource": "sportsdb",
+      "externalId": "134777"
+    },
+    {
+      "id": "tm_049e428d",
+      "sportId": "sp_soccer",
+      "name": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "externalSource": "sportsdb",
+      "externalId": "133720"
+    },
+    {
+      "id": "tm_d3f7cc85",
+      "sportId": "sp_soccer",
+      "name": "Sunderland",
+      "slug": "sunderland",
+      "externalSource": "sportsdb",
+      "externalId": "133603"
+    },
+    {
+      "id": "tm_e1870901",
+      "sportId": "sp_soccer",
+      "name": "Tottenham Hotspur",
+      "slug": "tottenham-hotspur",
+      "externalSource": "sportsdb",
+      "externalId": "133616"
+    },
+    {
+      "id": "tm_0ae8aaf0",
+      "sportId": "sp_soccer",
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "externalSource": "sportsdb",
+      "externalId": "133636"
+    },
+    {
+      "id": "tm_5c922230",
+      "sportId": "sp_soccer",
+      "name": "Wolverhampton Wanderers",
+      "slug": "wolverhampton-wanderers",
+      "externalSource": "sportsdb",
+      "externalId": "133599"
+    },
+    {
+      "id": "tm_ba6e7330",
+      "sportId": "sp_soccer",
+      "name": "Birmingham City",
+      "slug": "birmingham-city",
+      "externalSource": "sportsdb",
+      "externalId": "133597"
+    },
+    {
+      "id": "tm_867425f9",
+      "sportId": "sp_soccer",
+      "name": "Blackburn Rovers",
+      "slug": "blackburn-rovers",
+      "externalSource": "sportsdb",
+      "externalId": "133598"
+    },
+    {
+      "id": "tm_102c3a30",
+      "sportId": "sp_soccer",
+      "name": "Bristol City",
+      "slug": "bristol-city",
+      "externalSource": "sportsdb",
+      "externalId": "133621"
+    },
+    {
+      "id": "tm_01e25355",
+      "sportId": "sp_soccer",
+      "name": "Charlton Athletic",
+      "slug": "charlton-athletic",
+      "externalSource": "sportsdb",
+      "externalId": "133851"
+    },
+    {
+      "id": "tm_60feb30b",
+      "sportId": "sp_soccer",
+      "name": "Coventry City",
+      "slug": "coventry-city",
+      "externalSource": "sportsdb",
+      "externalId": "133625"
+    },
+    {
+      "id": "tm_76e190a2",
+      "sportId": "sp_soccer",
+      "name": "Derby County",
+      "slug": "derby-county",
+      "externalSource": "sportsdb",
+      "externalId": "133627"
+    },
+    {
+      "id": "tm_be65e035",
+      "sportId": "sp_soccer",
+      "name": "Hull City",
+      "slug": "hull-city",
+      "externalSource": "sportsdb",
+      "externalId": "133617"
+    },
+    {
+      "id": "tm_cee0e4ed",
+      "sportId": "sp_soccer",
+      "name": "Ipswich Town",
+      "slug": "ipswich-town",
+      "externalSource": "sportsdb",
+      "externalId": "133622"
+    },
+    {
+      "id": "tm_f3b33dd4",
+      "sportId": "sp_soccer",
+      "name": "Leicester City",
+      "slug": "leicester-city",
+      "externalSource": "sportsdb",
+      "externalId": "133626"
+    },
+    {
+      "id": "tm_25f0d608",
+      "sportId": "sp_soccer",
+      "name": "Middlesbrough",
+      "slug": "middlesbrough",
+      "externalSource": "sportsdb",
+      "externalId": "133628"
+    },
+    {
+      "id": "tm_fb9940cb",
+      "sportId": "sp_soccer",
+      "name": "Millwall",
+      "slug": "millwall",
+      "externalSource": "sportsdb",
+      "externalId": "133634"
+    },
+    {
+      "id": "tm_2f8ffcee",
+      "sportId": "sp_soccer",
+      "name": "Norwich City",
+      "slug": "norwich-city",
+      "externalSource": "sportsdb",
+      "externalId": "133608"
+    },
+    {
+      "id": "tm_a5da8daf",
+      "sportId": "sp_soccer",
+      "name": "Oxford United",
+      "slug": "oxford-united",
+      "externalSource": "sportsdb",
+      "externalId": "134361"
+    },
+    {
+      "id": "tm_a312a2a7",
+      "sportId": "sp_soccer",
+      "name": "Portsmouth",
+      "slug": "portsmouth",
+      "externalSource": "sportsdb",
+      "externalId": "133629"
+    },
+    {
+      "id": "tm_857ab961",
+      "sportId": "sp_soccer",
+      "name": "Preston North End",
+      "slug": "preston-north-end",
+      "externalSource": "sportsdb",
+      "externalId": "133809"
+    },
+    {
+      "id": "tm_9a4cf26c",
+      "sportId": "sp_soccer",
+      "name": "Queens Park Rangers",
+      "slug": "queens-park-rangers",
+      "externalSource": "sportsdb",
+      "externalId": "133605"
+    },
+    {
+      "id": "tm_fd868d10",
+      "sportId": "sp_soccer",
+      "name": "Sheffield United",
+      "slug": "sheffield-united",
+      "externalSource": "sportsdb",
+      "externalId": "133811"
+    },
+    {
+      "id": "tm_0d847f80",
+      "sportId": "sp_soccer",
+      "name": "Sheffield Wednesday",
+      "slug": "sheffield-wednesday",
+      "externalSource": "sportsdb",
+      "externalId": "133837"
+    },
+    {
+      "id": "tm_8ecdd40d",
+      "sportId": "sp_soccer",
+      "name": "Southampton",
+      "slug": "southampton",
+      "externalSource": "sportsdb",
+      "externalId": "134778"
+    },
+    {
+      "id": "tm_607a4fb1",
+      "sportId": "sp_soccer",
+      "name": "Stoke City",
+      "slug": "stoke-city",
+      "externalSource": "sportsdb",
+      "externalId": "133609"
+    },
+    {
+      "id": "tm_d3e82512",
+      "sportId": "sp_soccer",
+      "name": "Swansea City",
+      "slug": "swansea-city",
+      "externalSource": "sportsdb",
+      "externalId": "133614"
+    },
+    {
+      "id": "tm_a66cb08a",
+      "sportId": "sp_soccer",
+      "name": "Watford",
+      "slug": "watford",
+      "externalSource": "sportsdb",
+      "externalId": "133624"
+    },
+    {
+      "id": "tm_c22741c1",
+      "sportId": "sp_soccer",
+      "name": "West Bromwich Albion",
+      "slug": "west-bromwich-albion",
+      "externalSource": "sportsdb",
+      "externalId": "133611"
+    },
+    {
+      "id": "tm_a41c352f",
+      "sportId": "sp_soccer",
+      "name": "Wrexham",
+      "slug": "wrexham",
+      "externalSource": "sportsdb",
+      "externalId": "134775"
+    },
+    {
+      "id": "tm_ff2b4bc7",
+      "sportId": "sp_soccer",
+      "name": "Aberdeen",
+      "slug": "aberdeen",
+      "externalSource": "sportsdb",
+      "externalId": "133638"
+    },
+    {
+      "id": "tm_eda06326",
+      "sportId": "sp_soccer",
+      "name": "Celtic",
+      "slug": "celtic",
+      "externalSource": "sportsdb",
+      "externalId": "133647"
+    },
+    {
+      "id": "tm_854d4822",
+      "sportId": "sp_soccer",
+      "name": "Dundee",
+      "slug": "dundee",
+      "externalSource": "sportsdb",
+      "externalId": "133942"
+    },
+    {
+      "id": "tm_ce2caa59",
+      "sportId": "sp_soccer",
+      "name": "Dundee United",
+      "slug": "dundee-united",
+      "externalSource": "sportsdb",
+      "externalId": "133644"
+    },
+    {
+      "id": "tm_b86ee8d3",
+      "sportId": "sp_soccer",
+      "name": "Falkirk",
+      "slug": "falkirk",
+      "externalSource": "sportsdb",
+      "externalId": "133838"
+    },
+    {
+      "id": "tm_b36e80fe",
+      "sportId": "sp_soccer",
+      "name": "Heart of Midlothian",
+      "slug": "heart-of-midlothian",
+      "externalSource": "sportsdb",
+      "externalId": "133643"
+    },
+    {
+      "id": "tm_3bf0ba59",
+      "sportId": "sp_soccer",
+      "name": "Hibernian",
+      "slug": "hibernian",
+      "externalSource": "sportsdb",
+      "externalId": "133646"
+    },
+    {
+      "id": "tm_2c0f8ea2",
+      "sportId": "sp_soccer",
+      "name": "Kilmarnock",
+      "slug": "kilmarnock",
+      "externalSource": "sportsdb",
+      "externalId": "133645"
+    },
+    {
+      "id": "tm_a152d487",
+      "sportId": "sp_soccer",
+      "name": "Livingston",
+      "slug": "livingston",
+      "externalSource": "sportsdb",
+      "externalId": "134133"
+    },
+    {
+      "id": "tm_7dfaf32d",
+      "sportId": "sp_soccer",
+      "name": "Motherwell",
+      "slug": "motherwell",
+      "externalSource": "sportsdb",
+      "externalId": "133640"
+    },
+    {
+      "id": "tm_61ba2602",
+      "sportId": "sp_soccer",
+      "name": "Rangers",
+      "slug": "rangers",
+      "externalSource": "sportsdb",
+      "externalId": "133642"
+    },
+    {
+      "id": "tm_c0974901",
+      "sportId": "sp_soccer",
+      "name": "St Mirren",
+      "slug": "st-mirren",
+      "externalSource": "sportsdb",
+      "externalId": "133649"
+    },
+    {
+      "id": "tm_031b3b29",
+      "sportId": "sp_soccer",
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "externalSource": "sportsdb",
+      "externalId": "133666"
+    },
+    {
+      "id": "tm_24031077",
+      "sportId": "sp_soccer",
+      "name": "Bayern Munich",
+      "slug": "bayern-munich",
+      "externalSource": "sportsdb",
+      "externalId": "133664"
+    },
+    {
+      "id": "tm_c497f20b",
+      "sportId": "sp_soccer",
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "externalSource": "sportsdb",
+      "externalId": "133650"
+    },
+    {
+      "id": "tm_9b4f02f1",
+      "sportId": "sp_soccer",
+      "name": "Borussia Mönchengladbach",
+      "slug": "borussia-m-nchengladbach",
+      "externalSource": "sportsdb",
+      "externalId": "134779"
+    },
+    {
+      "id": "tm_79377692",
+      "sportId": "sp_soccer",
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "externalSource": "sportsdb",
+      "externalId": "133814"
+    },
+    {
+      "id": "tm_ed75e2b6",
+      "sportId": "sp_soccer",
+      "name": "FC Augsburg",
+      "slug": "fc-augsburg",
+      "externalSource": "sportsdb",
+      "externalId": "133652"
+    },
+    {
+      "id": "tm_ea5fafaa",
+      "sportId": "sp_soccer",
+      "name": "FC Heidenheim",
+      "slug": "fc-heidenheim",
+      "externalSource": "sportsdb",
+      "externalId": "134696"
+    },
+    {
+      "id": "tm_8c03125c",
+      "sportId": "sp_soccer",
+      "name": "FC Köln",
+      "slug": "fc-k-ln",
+      "externalSource": "sportsdb",
+      "externalId": "133654"
+    },
+    {
+      "id": "tm_50aa275b",
+      "sportId": "sp_soccer",
+      "name": "Freiburg",
+      "slug": "freiburg",
+      "externalSource": "sportsdb",
+      "externalId": "133653"
+    },
+    {
+      "id": "tm_8a4dfaf0",
+      "sportId": "sp_soccer",
+      "name": "Hamburg",
+      "slug": "hamburg",
+      "externalSource": "sportsdb",
+      "externalId": "133651"
+    },
+    {
+      "id": "tm_88dcd02f",
+      "sportId": "sp_soccer",
+      "name": "Hoffenheim",
+      "slug": "hoffenheim",
+      "externalSource": "sportsdb",
+      "externalId": "133657"
+    },
+    {
+      "id": "tm_7a61f017",
+      "sportId": "sp_soccer",
+      "name": "Mainz",
+      "slug": "mainz",
+      "externalSource": "sportsdb",
+      "externalId": "133665"
+    },
+    {
+      "id": "tm_c6cb884d",
+      "sportId": "sp_soccer",
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "externalSource": "sportsdb",
+      "externalId": "134695"
+    },
+    {
+      "id": "tm_1eadeebd",
+      "sportId": "sp_soccer",
+      "name": "St Pauli",
+      "slug": "st-pauli",
+      "externalSource": "sportsdb",
+      "externalId": "133813"
+    },
+    {
+      "id": "tm_9125f5c1",
+      "sportId": "sp_soccer",
+      "name": "Stuttgart",
+      "slug": "stuttgart",
+      "externalSource": "sportsdb",
+      "externalId": "133660"
+    },
+    {
+      "id": "tm_5f926174",
+      "sportId": "sp_soccer",
+      "name": "Union Berlin",
+      "slug": "union-berlin",
+      "externalSource": "sportsdb",
+      "externalId": "134690"
+    },
+    {
+      "id": "tm_f3963d5a",
+      "sportId": "sp_soccer",
+      "name": "Werder Bremen",
+      "slug": "werder-bremen",
+      "externalSource": "sportsdb",
+      "externalId": "133662"
+    },
+    {
+      "id": "tm_9c6c4b89",
+      "sportId": "sp_soccer",
+      "name": "Wolfsburg",
+      "slug": "wolfsburg",
+      "externalSource": "sportsdb",
+      "externalId": "133655"
+    },
+    {
+      "id": "tm_36a4c706",
+      "sportId": "sp_soccer",
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "externalSource": "sportsdb",
+      "externalId": "133667"
+    },
+    {
+      "id": "tm_25cc2ce9",
+      "sportId": "sp_soccer",
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "externalSource": "sportsdb",
+      "externalId": "134782"
+    },
+    {
+      "id": "tm_4a601518",
+      "sportId": "sp_soccer",
+      "name": "Bologna",
+      "slug": "bologna",
+      "externalSource": "sportsdb",
+      "externalId": "134781"
+    },
+    {
+      "id": "tm_c1bcc237",
+      "sportId": "sp_soccer",
+      "name": "Cagliari",
+      "slug": "cagliari",
+      "externalSource": "sportsdb",
+      "externalId": "134783"
+    },
+    {
+      "id": "tm_7d1e6aaf",
+      "sportId": "sp_soccer",
+      "name": "Como",
+      "slug": "como",
+      "externalSource": "sportsdb",
+      "externalId": "134243"
+    },
+    {
+      "id": "tm_d9723eba",
+      "sportId": "sp_soccer",
+      "name": "Cremonese",
+      "slug": "cremonese",
+      "externalSource": "sportsdb",
+      "externalId": "134224"
+    },
+    {
+      "id": "tm_2ed91f9a",
+      "sportId": "sp_soccer",
+      "name": "Fiorentina",
+      "slug": "fiorentina",
+      "externalSource": "sportsdb",
+      "externalId": "133674"
+    },
+    {
+      "id": "tm_17d0216a",
+      "sportId": "sp_soccer",
+      "name": "Genoa",
+      "slug": "genoa",
+      "externalSource": "sportsdb",
+      "externalId": "133675"
+    },
+    {
+      "id": "tm_6fec4e87",
+      "sportId": "sp_soccer",
+      "name": "Hellas Verona",
+      "slug": "hellas-verona",
+      "externalSource": "sportsdb",
+      "externalId": "134784"
+    },
+    {
+      "id": "tm_4fac385c",
+      "sportId": "sp_soccer",
+      "name": "Inter Milan",
+      "slug": "inter-milan",
+      "externalSource": "sportsdb",
+      "externalId": "133681"
+    },
+    {
+      "id": "tm_b94d64fb",
+      "sportId": "sp_soccer",
+      "name": "Juventus",
+      "slug": "juventus",
+      "externalSource": "sportsdb",
+      "externalId": "133676"
+    },
+    {
+      "id": "tm_fbb43ca2",
+      "sportId": "sp_soccer",
+      "name": "Lazio",
+      "slug": "lazio",
+      "externalSource": "sportsdb",
+      "externalId": "133668"
+    },
+    {
+      "id": "tm_7090af3b",
+      "sportId": "sp_soccer",
+      "name": "Lecce",
+      "slug": "lecce",
+      "externalSource": "sportsdb",
+      "externalId": "133678"
+    },
+    {
+      "id": "tm_a7d78ccf",
+      "sportId": "sp_soccer",
+      "name": "Napoli",
+      "slug": "napoli",
+      "externalSource": "sportsdb",
+      "externalId": "133670"
+    },
+    {
+      "id": "tm_5510ff3e",
+      "sportId": "sp_soccer",
+      "name": "Parma",
+      "slug": "parma",
+      "externalSource": "sportsdb",
+      "externalId": "135728"
+    },
+    {
+      "id": "tm_55afc832",
+      "sportId": "sp_soccer",
+      "name": "Pisa",
+      "slug": "pisa",
+      "externalSource": "sportsdb",
+      "externalId": "133859"
+    },
+    {
+      "id": "tm_8168175e",
+      "sportId": "sp_soccer",
+      "name": "Roma",
+      "slug": "roma",
+      "externalSource": "sportsdb",
+      "externalId": "133682"
+    },
+    {
+      "id": "tm_3014a278",
+      "sportId": "sp_soccer",
+      "name": "Sassuolo",
+      "slug": "sassuolo",
+      "externalSource": "sportsdb",
+      "externalId": "133701"
+    },
+    {
+      "id": "tm_5ef69bda",
+      "sportId": "sp_soccer",
+      "name": "Torino",
+      "slug": "torino",
+      "externalSource": "sportsdb",
+      "externalId": "133687"
+    },
+    {
+      "id": "tm_e248de87",
+      "sportId": "sp_soccer",
+      "name": "Udinese",
+      "slug": "udinese",
+      "externalSource": "sportsdb",
+      "externalId": "133679"
+    },
+    {
+      "id": "tm_8c53cebd",
+      "sportId": "sp_soccer",
+      "name": "Angers",
+      "slug": "angers",
+      "externalSource": "sportsdb",
+      "externalId": "134709"
+    },
+    {
+      "id": "tm_636801ed",
+      "sportId": "sp_soccer",
+      "name": "Auxerre",
+      "slug": "auxerre",
+      "externalSource": "sportsdb",
+      "externalId": "134788"
+    },
+    {
+      "id": "tm_2b1d790d",
+      "sportId": "sp_soccer",
+      "name": "Brest",
+      "slug": "brest",
+      "externalSource": "sportsdb",
+      "externalId": "133704"
+    },
+    {
+      "id": "tm_e831514e",
+      "sportId": "sp_soccer",
+      "name": "Le Havre",
+      "slug": "le-havre",
+      "externalSource": "sportsdb",
+      "externalId": "133862"
+    },
+    {
+      "id": "tm_bf7abccb",
+      "sportId": "sp_soccer",
+      "name": "Lens",
+      "slug": "lens",
+      "externalSource": "sportsdb",
+      "externalId": "133822"
+    },
+    {
+      "id": "tm_d385063a",
+      "sportId": "sp_soccer",
+      "name": "Lille",
+      "slug": "lille",
+      "externalSource": "sportsdb",
+      "externalId": "133711"
     }
   ],
   "players": [
     {
-      "id": "pl_lb",
-      "sportId": "sp_nba",
-      "teamId": "tm_lal",
-      "name": "LeBron James"
+      "id": "pl_9f7a5c4d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Albert Stuivenberg",
+      "externalSource": "sportsdb",
+      "externalId": "34433685"
     },
     {
-      "id": "pl_sc",
-      "sportId": "sp_nba",
-      "teamId": "tm_gsw",
-      "name": "Stephen Curry"
+      "id": "pl_bff0be87",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Ben White",
+      "externalSource": "sportsdb",
+      "externalId": "34163698"
     },
     {
-      "id": "pl_mj",
-      "sportId": "sp_nba",
-      "teamId": "tm_chi",
-      "name": "Michael Jordan"
+      "id": "pl_68f2ec1b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Bukayo Saka",
+      "externalSource": "sportsdb",
+      "externalId": "34169884"
     },
     {
-      "id": "pl_pm",
-      "sportId": "sp_nfl",
-      "teamId": "tm_kc",
-      "name": "Patrick Mahomes"
+      "id": "pl_561bfe7a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Christian Nørgaard",
+      "externalSource": "sportsdb",
+      "externalId": "34164499"
     },
     {
-      "id": "pl_bc",
-      "sportId": "sp_nfl",
-      "teamId": "tm_sf",
-      "name": "Brock Purdy"
+      "id": "pl_ad0e0f87",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Cristhian Mosquera",
+      "externalSource": "sportsdb",
+      "externalId": "34194118"
     },
     {
-      "id": "pl_cd",
-      "sportId": "sp_nfl",
-      "teamId": "tm_dal",
-      "name": "CeeDee Lamb"
+      "id": "pl_3983ffc2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "David Raya",
+      "externalSource": "sportsdb",
+      "externalId": "34148681"
     },
     {
-      "id": "pl_ja",
-      "sportId": "sp_mlb",
-      "teamId": "tm_nyy",
-      "name": "Aaron Judge"
+      "id": "pl_776dd412",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Declan Rice",
+      "externalSource": "sportsdb",
+      "externalId": "34161584"
     },
     {
-      "id": "pl_os",
-      "sportId": "sp_mlb",
-      "teamId": "tm_lad",
-      "name": "Shohei Ohtani"
+      "id": "pl_4ada4217",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Eberechi Eze",
+      "externalSource": "sportsdb",
+      "externalId": "34172278"
     },
     {
-      "id": "pl_bh",
-      "sportId": "sp_mlb",
-      "teamId": "tm_bos",
-      "name": "Bobby Witt Jr."
+      "id": "pl_c8630243",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Gabriel Heinze",
+      "externalSource": "sportsdb",
+      "externalId": "34195530"
     },
     {
-      "id": "pl_vk",
-      "sportId": "sp_cri",
-      "teamId": "tm_ind",
-      "name": "Virat Kohli"
+      "id": "pl_69e42945",
+      "sportId": "sp_soccer",
+      "teamId": "tm_1dd59c96",
+      "name": "Gabriel Jesus",
+      "externalSource": "sportsdb",
+      "externalId": "34160962"
     },
     {
-      "id": "pl_ps",
-      "sportId": "sp_cri",
-      "teamId": "tm_aus",
-      "name": "Pat Cummins"
+      "id": "pl_ac0aa116",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Alysson",
+      "externalSource": "sportsdb",
+      "externalId": "34346311"
     },
     {
-      "id": "pl_jr",
-      "sportId": "sp_cri",
-      "teamId": "tm_eng",
-      "name": "Joe Root"
+      "id": "pl_25f8fecb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Amadou Onana",
+      "externalSource": "sportsdb",
+      "externalId": "34174589"
     },
     {
-      "id": "pl_nd",
-      "sportId": "sp_ten",
-      "teamId": null,
-      "name": "Novak Djokovic"
+      "id": "pl_d8bb5e4f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Andrés García",
+      "externalSource": "sportsdb",
+      "externalId": "34258375"
     },
     {
-      "id": "pl_cr",
-      "sportId": "sp_ten",
-      "teamId": null,
-      "name": "Carlos Alcaraz"
+      "id": "pl_79bd2af6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Boubacar Kamara",
+      "externalSource": "sportsdb",
+      "externalId": "34173164"
     },
     {
-      "id": "pl_ig",
-      "sportId": "sp_ten",
-      "teamId": null,
-      "name": "Iga Swiatek"
+      "id": "pl_d7714737",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Bradley-Paul Burrowes",
+      "externalSource": "sportsdb",
+      "externalId": "34433975"
+    },
+    {
+      "id": "pl_875898c0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Douglas Luiz",
+      "externalSource": "sportsdb",
+      "externalId": "34161348"
+    },
+    {
+      "id": "pl_85628e45",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Emiliano Buendia",
+      "externalSource": "sportsdb",
+      "externalId": "34149475"
+    },
+    {
+      "id": "pl_3fd783b2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Emiliano Martinez",
+      "externalSource": "sportsdb",
+      "externalId": "34145423"
+    },
+    {
+      "id": "pl_ef979e7a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Ezri Konsa",
+      "externalSource": "sportsdb",
+      "externalId": "34161727"
+    },
+    {
+      "id": "pl_fa1c3eac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e061ce27",
+      "name": "Harvey Elliott",
+      "externalSource": "sportsdb",
+      "externalId": "34168992"
+    },
+    {
+      "id": "pl_c14ebe1b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Adam Smith",
+      "externalSource": "sportsdb",
+      "externalId": "34160896"
+    },
+    {
+      "id": "pl_a45ff728",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Adrien Truffert",
+      "externalSource": "sportsdb",
+      "externalId": "34173134"
+    },
+    {
+      "id": "pl_762dde9a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Álex Jiménez",
+      "externalSource": "sportsdb",
+      "externalId": "34227000"
+    },
+    {
+      "id": "pl_7af72780",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Alex Scott",
+      "externalSource": "sportsdb",
+      "externalId": "34192695"
+    },
+    {
+      "id": "pl_f7ec5863",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Amine Adli",
+      "externalSource": "sportsdb",
+      "externalId": "34174780"
+    },
+    {
+      "id": "pl_eab6992f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Andoni Iraola",
+      "externalSource": "sportsdb",
+      "externalId": "34149298"
+    },
+    {
+      "id": "pl_b5073224",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Bafodé Diakité",
+      "externalSource": "sportsdb",
+      "externalId": "34174778"
+    },
+    {
+      "id": "pl_0311dc7b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Ben Gannon-Doak",
+      "externalSource": "sportsdb",
+      "externalId": "34203074"
+    },
+    {
+      "id": "pl_b2282533",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "David Brooks",
+      "externalSource": "sportsdb",
+      "externalId": "34161564"
+    },
+    {
+      "id": "pl_31cf73c0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba3fed98",
+      "name": "Đorđe Petrović",
+      "externalSource": "sportsdb",
+      "externalId": "34199497"
+    },
+    {
+      "id": "pl_a2b53381",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Aaron Hickey",
+      "externalSource": "sportsdb",
+      "externalId": "34172526"
+    },
+    {
+      "id": "pl_cdc08bf5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Antoni Milambo",
+      "externalSource": "sportsdb",
+      "externalId": "34225262"
+    },
+    {
+      "id": "pl_d0bc48e5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Caoimhín Kelleher",
+      "externalSource": "sportsdb",
+      "externalId": "34170146"
+    },
+    {
+      "id": "pl_67c91e95",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Dango Ouattara",
+      "externalSource": "sportsdb",
+      "externalId": "34196432"
+    },
+    {
+      "id": "pl_9bed93ad",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Edmond-Paris Maghoma",
+      "externalSource": "sportsdb",
+      "externalId": "34218292"
+    },
+    {
+      "id": "pl_45200101",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Ellery Balcombe",
+      "externalSource": "sportsdb",
+      "externalId": "34176383"
+    },
+    {
+      "id": "pl_8a03085e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Ethan Pinnock",
+      "externalSource": "sportsdb",
+      "externalId": "34161460"
+    },
+    {
+      "id": "pl_7ff7dd99",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Fabio Carvalho",
+      "externalSource": "sportsdb",
+      "externalId": "34179828"
+    },
+    {
+      "id": "pl_c7dda15e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Frank Onyeka",
+      "externalSource": "sportsdb",
+      "externalId": "34173764"
+    },
+    {
+      "id": "pl_d44fe4dc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d1c97cf3",
+      "name": "Gustavo Nunes",
+      "externalSource": "sportsdb",
+      "externalId": "34232927"
+    },
+    {
+      "id": "pl_35ba9731",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Adam Webster",
+      "externalSource": "sportsdb",
+      "externalId": "34157644"
+    },
+    {
+      "id": "pl_43672e28",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Bart Verbruggen",
+      "externalSource": "sportsdb",
+      "externalId": "34179954"
+    },
+    {
+      "id": "pl_0d894741",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Brajan Gruda",
+      "externalSource": "sportsdb",
+      "externalId": "34215644"
+    },
+    {
+      "id": "pl_becab8c0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Carlos Baleba",
+      "externalSource": "sportsdb",
+      "externalId": "34201891"
+    },
+    {
+      "id": "pl_29f768ef",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Charalambos Kostoulas",
+      "externalSource": "sportsdb",
+      "externalId": "34246717"
+    },
+    {
+      "id": "pl_dd3c2d9e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Danny Welbeck",
+      "externalSource": "sportsdb",
+      "externalId": "34145395"
+    },
+    {
+      "id": "pl_74c9da27",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Diego Coppola",
+      "externalSource": "sportsdb",
+      "externalId": "34196538"
+    },
+    {
+      "id": "pl_c010a2f1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Diego Gómez",
+      "externalSource": "sportsdb",
+      "externalId": "34219953"
+    },
+    {
+      "id": "pl_48319143",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Fabian Hürzeler",
+      "externalSource": "sportsdb",
+      "externalId": "34243398"
+    },
+    {
+      "id": "pl_777ec504",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0341e32e",
+      "name": "Ferdi Kadıoğlu",
+      "externalSource": "sportsdb",
+      "externalId": "34181631"
+    },
+    {
+      "id": "pl_e8dcef9d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Armando Broja",
+      "externalSource": "sportsdb",
+      "externalId": "34177875"
+    },
+    {
+      "id": "pl_e19a701f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Ashley Barnes",
+      "externalSource": "sportsdb",
+      "externalId": "34146052"
+    },
+    {
+      "id": "pl_5eba692f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Axel Tuanzebe",
+      "externalSource": "sportsdb",
+      "externalId": "34160942"
+    },
+    {
+      "id": "pl_0a874143",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Bashir Humphreys",
+      "externalSource": "sportsdb",
+      "externalId": "34203230"
+    },
+    {
+      "id": "pl_3d8b20e0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Chimuanya Ugochukwu",
+      "externalSource": "sportsdb",
+      "externalId": "34179570"
+    },
+    {
+      "id": "pl_1db1d86c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Connor Roberts",
+      "externalSource": "sportsdb",
+      "externalId": "34157531"
+    },
+    {
+      "id": "pl_1f5b0823",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Enock Atta Agyei",
+      "externalSource": "sportsdb",
+      "externalId": "34222379"
+    },
+    {
+      "id": "pl_bbb25e5b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Florentino Luís",
+      "externalSource": "sportsdb",
+      "externalId": "34173866"
+    },
+    {
+      "id": "pl_67942292",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Hannes Delcroix",
+      "externalSource": "sportsdb",
+      "externalId": "34170527"
+    },
+    {
+      "id": "pl_918a2b71",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8af60797",
+      "name": "Hannibal Mejbri",
+      "externalSource": "sportsdb",
+      "externalId": "34197314"
+    },
+    {
+      "id": "pl_2158e3d6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Alejandro Garnacho",
+      "externalSource": "sportsdb",
+      "externalId": "34198578"
+    },
+    {
+      "id": "pl_2d5dd097",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Andrey Santos",
+      "externalSource": "sportsdb",
+      "externalId": "34193141"
+    },
+    {
+      "id": "pl_752a6030",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Benoit Badiashile",
+      "externalSource": "sportsdb",
+      "externalId": "34168142"
+    },
+    {
+      "id": "pl_06d2659d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Cole Palmer",
+      "externalSource": "sportsdb",
+      "externalId": "34192430"
+    },
+    {
+      "id": "pl_51293a19",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Dário Essugo",
+      "externalSource": "sportsdb",
+      "externalId": "34191417"
+    },
+    {
+      "id": "pl_42e410b2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Enzo Fernández",
+      "externalSource": "sportsdb",
+      "externalId": "34198448"
+    },
+    {
+      "id": "pl_629d5b12",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Estêvão",
+      "externalSource": "sportsdb",
+      "externalId": "34232908"
+    },
+    {
+      "id": "pl_ba24e98b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Filip Jörgensen",
+      "externalSource": "sportsdb",
+      "externalId": "34203667"
+    },
+    {
+      "id": "pl_a9048be4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Gabriel Slonina",
+      "externalSource": "sportsdb",
+      "externalId": "34184096"
+    },
+    {
+      "id": "pl_e0521c84",
+      "sportId": "sp_soccer",
+      "teamId": "tm_307f43ab",
+      "name": "Genesis Antwi",
+      "externalSource": "sportsdb",
+      "externalId": "34420295"
+    },
+    {
+      "id": "pl_e80b4a03",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Adam Wharton",
+      "externalSource": "sportsdb",
+      "externalId": "34217528"
+    },
+    {
+      "id": "pl_93ffb52c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Borna Sosa",
+      "externalSource": "sportsdb",
+      "externalId": "34173113"
+    },
+    {
+      "id": "pl_0cbd2afa",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Brennan Johnson",
+      "externalSource": "sportsdb",
+      "externalId": "34177246"
+    },
+    {
+      "id": "pl_a734baa2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Caleb Kporha",
+      "externalSource": "sportsdb",
+      "externalId": "34258537"
+    },
+    {
+      "id": "pl_cec93d3a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Chadi Riad",
+      "externalSource": "sportsdb",
+      "externalId": "34199716"
+    },
+    {
+      "id": "pl_924d5bf6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Cheick Doucouré",
+      "externalSource": "sportsdb",
+      "externalId": "34199847"
+    },
+    {
+      "id": "pl_8e80e20d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Chris Richards",
+      "externalSource": "sportsdb",
+      "externalId": "34173162"
+    },
+    {
+      "id": "pl_1229ca32",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Christantus Uche",
+      "externalSource": "sportsdb",
+      "externalId": "34280151"
+    },
+    {
+      "id": "pl_92271238",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Daichi Kamada",
+      "externalSource": "sportsdb",
+      "externalId": "34169137"
+    },
+    {
+      "id": "pl_27f4ee88",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c3f5e865",
+      "name": "Daniel Muñoz",
+      "externalSource": "sportsdb",
+      "externalId": "34175627"
+    },
+    {
+      "id": "pl_7936af85",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Adam Aznou",
+      "externalSource": "sportsdb",
+      "externalId": "34252662"
+    },
+    {
+      "id": "pl_2b35ec54",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Beto",
+      "externalSource": "sportsdb",
+      "externalId": "34191587"
+    },
+    {
+      "id": "pl_486729b9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Carlos Alcaraz",
+      "externalSource": "sportsdb",
+      "externalId": "34203476"
+    },
+    {
+      "id": "pl_d0c1c4c2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Charlie Adam",
+      "externalSource": "sportsdb",
+      "externalId": "34145962"
+    },
+    {
+      "id": "pl_1c005cac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "David Moyes",
+      "externalSource": "sportsdb",
+      "externalId": "34169127"
+    },
+    {
+      "id": "pl_affe1208",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Dwight McNeil",
+      "externalSource": "sportsdb",
+      "externalId": "34170018"
+    },
+    {
+      "id": "pl_83e62e61",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Harrison Armstrong",
+      "externalSource": "sportsdb",
+      "externalId": "34247302"
+    },
+    {
+      "id": "pl_4fe33133",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Idrissa Gueye",
+      "externalSource": "sportsdb",
+      "externalId": "34147351"
+    },
+    {
+      "id": "pl_a423ee97",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Iliman Ndiaye",
+      "externalSource": "sportsdb",
+      "externalId": "34178338"
+    },
+    {
+      "id": "pl_0c5665c2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d135f64f",
+      "name": "Jack Grealish",
+      "externalSource": "sportsdb",
+      "externalId": "34145477"
+    },
+    {
+      "id": "pl_bae46d6d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Alex Iwobi",
+      "externalSource": "sportsdb",
+      "externalId": "34145419"
+    },
+    {
+      "id": "pl_c1d38ee8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Antonee Robinson",
+      "externalSource": "sportsdb",
+      "externalId": "34161482"
+    },
+    {
+      "id": "pl_947f8cda",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Benjamin Lecomte",
+      "externalSource": "sportsdb",
+      "externalId": "34152864"
+    },
+    {
+      "id": "pl_f7d8093e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Bernd Leno",
+      "externalSource": "sportsdb",
+      "externalId": "34155372"
+    },
+    {
+      "id": "pl_c30262bd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Calvin Bassey",
+      "externalSource": "sportsdb",
+      "externalId": "34199896"
+    },
+    {
+      "id": "pl_aae22be7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Emil Smith Rowe",
+      "externalSource": "sportsdb",
+      "externalId": "34173038"
+    },
+    {
+      "id": "pl_fdf11f01",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Harrison Reed",
+      "externalSource": "sportsdb",
+      "externalId": "34145745"
+    },
+    {
+      "id": "pl_5579fbad",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Harry Wilson",
+      "externalSource": "sportsdb",
+      "externalId": "34166841"
+    },
+    {
+      "id": "pl_42a97ec3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Issa Diop",
+      "externalSource": "sportsdb",
+      "externalId": "34167055"
+    },
+    {
+      "id": "pl_8aa9c1d9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_683e56d7",
+      "name": "Joachim Andersen",
+      "externalSource": "sportsdb",
+      "externalId": "34155862"
+    },
+    {
+      "id": "pl_46aeadaf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Alex Cairns",
+      "externalSource": "sportsdb",
+      "externalId": "34147839"
+    },
+    {
+      "id": "pl_0df8450d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Anton Stach",
+      "externalSource": "sportsdb",
+      "externalId": "34174762"
+    },
+    {
+      "id": "pl_cee3a57b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Ao Tanaka",
+      "externalSource": "sportsdb",
+      "externalId": "34179725"
+    },
+    {
+      "id": "pl_9d094572",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Brenden Aaronson",
+      "externalSource": "sportsdb",
+      "externalId": "34174227"
+    },
+    {
+      "id": "pl_188cc8a0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Daniel Farke",
+      "externalSource": "sportsdb",
+      "externalId": "34165558"
+    },
+    {
+      "id": "pl_8f37ba5e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Daniel James",
+      "externalSource": "sportsdb",
+      "externalId": "34167829"
+    },
+    {
+      "id": "pl_dbf4b493",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Degnand Gnonto",
+      "externalSource": "sportsdb",
+      "externalId": "34197611"
+    },
+    {
+      "id": "pl_f7909d9f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Dominic Calvert-Lewin",
+      "externalSource": "sportsdb",
+      "externalId": "34159023"
+    },
+    {
+      "id": "pl_2f0dfb00",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Ethan Ampadu",
+      "externalSource": "sportsdb",
+      "externalId": "34169292"
+    },
+    {
+      "id": "pl_8a8bf650",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f6c81fd6",
+      "name": "Facundo Buonanotte",
+      "externalSource": "sportsdb",
+      "externalId": "34215642"
+    },
+    {
+      "id": "pl_a5f13ba5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Alexander Isak",
+      "externalSource": "sportsdb",
+      "externalId": "34163447"
+    },
+    {
+      "id": "pl_072fc354",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Alexis Mac Allister",
+      "externalSource": "sportsdb",
+      "externalId": "34170133"
+    },
+    {
+      "id": "pl_2011ed67",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Alisson Becker",
+      "externalSource": "sportsdb",
+      "externalId": "34163551"
+    },
+    {
+      "id": "pl_29f74814",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Andrew Robertson",
+      "externalSource": "sportsdb",
+      "externalId": "34145891"
+    },
+    {
+      "id": "pl_88eeab62",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Ármin Pécsi",
+      "externalSource": "sportsdb",
+      "externalId": "34293619"
+    },
+    {
+      "id": "pl_3ffdb5a4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Arne Slot",
+      "externalSource": "sportsdb",
+      "externalId": "34170385"
+    },
+    {
+      "id": "pl_10d4b6ae",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Cody Gakpo",
+      "externalSource": "sportsdb",
+      "externalId": "34164182"
+    },
+    {
+      "id": "pl_b1864da1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Conor Bradley",
+      "externalSource": "sportsdb",
+      "externalId": "34193286"
+    },
+    {
+      "id": "pl_1239537a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Curtis Jones",
+      "externalSource": "sportsdb",
+      "externalId": "34168991"
+    },
+    {
+      "id": "pl_190cb933",
+      "sportId": "sp_soccer",
+      "teamId": "tm_63688d75",
+      "name": "Dominik Szoboszlai",
+      "externalSource": "sportsdb",
+      "externalId": "34171965"
+    },
+    {
+      "id": "pl_2cb93b5d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Abduqodir Khusanov",
+      "externalSource": "sportsdb",
+      "externalId": "34220551"
+    },
+    {
+      "id": "pl_19135455",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Antoine Semenyo",
+      "externalSource": "sportsdb",
+      "externalId": "34163719"
+    },
+    {
+      "id": "pl_2e5cdc94",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Bernardo Silva",
+      "externalSource": "sportsdb",
+      "externalId": "34152742"
+    },
+    {
+      "id": "pl_cc66e968",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Erling Haaland",
+      "externalSource": "sportsdb",
+      "externalId": "34169116"
+    },
+    {
+      "id": "pl_e38f6a13",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Ferran Soriano",
+      "externalSource": "sportsdb",
+      "externalId": "34433735"
+    },
+    {
+      "id": "pl_5df644fd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Gianluigi Donnarumma",
+      "externalSource": "sportsdb",
+      "externalId": "34162303"
+    },
+    {
+      "id": "pl_b0fde6af",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Hugo Viana",
+      "externalSource": "sportsdb",
+      "externalId": "34265455"
+    },
+    {
+      "id": "pl_e7423e00",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "James Trafford",
+      "externalSource": "sportsdb",
+      "externalId": "34175792"
+    },
+    {
+      "id": "pl_9e2f244a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "Jérémy Doku",
+      "externalSource": "sportsdb",
+      "externalId": "34172198"
+    },
+    {
+      "id": "pl_c541d108",
+      "sportId": "sp_soccer",
+      "teamId": "tm_758c14eb",
+      "name": "John Stones",
+      "externalSource": "sportsdb",
+      "externalId": "34145830"
+    },
+    {
+      "id": "pl_e3f53f14",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Altay Bayındır",
+      "externalSource": "sportsdb",
+      "externalId": "34176261"
+    },
+    {
+      "id": "pl_f265f547",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Amad Diallo",
+      "externalSource": "sportsdb",
+      "externalId": "34173019"
+    },
+    {
+      "id": "pl_9df4ee29",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Ayden Heaven",
+      "externalSource": "sportsdb",
+      "externalId": "34244626"
+    },
+    {
+      "id": "pl_569d7a73",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Bendito Mantato",
+      "externalSource": "sportsdb",
+      "externalId": "34433777"
+    },
+    {
+      "id": "pl_92db2afa",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Benjamin Šeško",
+      "externalSource": "sportsdb",
+      "externalId": "34192206"
+    },
+    {
+      "id": "pl_ed2dd09a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Bruno Fernandes",
+      "externalSource": "sportsdb",
+      "externalId": "34163007"
+    },
+    {
+      "id": "pl_4bf7fb18",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Bryan Mbeumo",
+      "externalSource": "sportsdb",
+      "externalId": "34173594"
+    },
+    {
+      "id": "pl_9f9b8063",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Casemiro",
+      "externalSource": "sportsdb",
+      "externalId": "34146573"
+    },
+    {
+      "id": "pl_c6f9e645",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Diego León",
+      "externalSource": "sportsdb",
+      "externalId": "34301081"
+    },
+    {
+      "id": "pl_19201552",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ddd7dc20",
+      "name": "Diogo Dalot",
+      "externalSource": "sportsdb",
+      "externalId": "34163536"
+    },
+    {
+      "id": "pl_249ad04b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Aaron Ramsdale",
+      "externalSource": "sportsdb",
+      "externalId": "34161618"
+    },
+    {
+      "id": "pl_1f19e482",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Alex Murphy",
+      "externalSource": "sportsdb",
+      "externalId": "34233034"
+    },
+    {
+      "id": "pl_f47b258a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Anthony Elanga",
+      "externalSource": "sportsdb",
+      "externalId": "34179948"
+    },
+    {
+      "id": "pl_09f5c7c4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Anthony Gordon",
+      "externalSource": "sportsdb",
+      "externalId": "34170142"
+    },
+    {
+      "id": "pl_9ab05b5f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Bruno Guimarães",
+      "externalSource": "sportsdb",
+      "externalId": "34172187"
+    },
+    {
+      "id": "pl_67a2a486",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Dan Burn",
+      "externalSource": "sportsdb",
+      "externalId": "34148591"
+    },
+    {
+      "id": "pl_935b58d0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Eddie Howe",
+      "externalSource": "sportsdb",
+      "externalId": "34165470"
+    },
+    {
+      "id": "pl_9ffce90e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Emil Krafth",
+      "externalSource": "sportsdb",
+      "externalId": "34170151"
+    },
+    {
+      "id": "pl_b8a2a50f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Fabian Schär",
+      "externalSource": "sportsdb",
+      "externalId": "34160664"
+    },
+    {
+      "id": "pl_526b73dd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_517455aa",
+      "name": "Harvey Barnes",
+      "externalSource": "sportsdb",
+      "externalId": "34161470"
+    },
+    {
+      "id": "pl_a67efac1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Angus Gunn",
+      "externalSource": "sportsdb",
+      "externalId": "34161539"
+    },
+    {
+      "id": "pl_54da2d88",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Callum Hudson-Odoi",
+      "externalSource": "sportsdb",
+      "externalId": "34170137"
+    },
+    {
+      "id": "pl_eb06743c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Chris Wood",
+      "externalSource": "sportsdb",
+      "externalId": "34145711"
+    },
+    {
+      "id": "pl_9af7cac5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Dan Ndoye",
+      "externalSource": "sportsdb",
+      "externalId": "34175837"
+    },
+    {
+      "id": "pl_870f2e21",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Dilane Bakwa",
+      "externalSource": "sportsdb",
+      "externalId": "34175413"
+    },
+    {
+      "id": "pl_ad450432",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Elliott Anderson",
+      "externalSource": "sportsdb",
+      "externalId": "34175393"
+    },
+    {
+      "id": "pl_26ad0a4e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Ibrahim Sangaré",
+      "externalSource": "sportsdb",
+      "externalId": "34172570"
+    },
+    {
+      "id": "pl_3bf2d3b6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Igor Jesus",
+      "externalSource": "sportsdb",
+      "externalId": "34236581"
+    },
+    {
+      "id": "pl_52b4cf9f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "Jair Cunha",
+      "externalSource": "sportsdb",
+      "externalId": "34346281"
+    },
+    {
+      "id": "pl_e9022d0d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_049e428d",
+      "name": "James McAtee",
+      "externalSource": "sportsdb",
+      "externalId": "34194471"
+    },
+    {
+      "id": "pl_338a6471",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Ahmed Abdullahi",
+      "externalSource": "sportsdb",
+      "externalId": "34295213"
+    },
+    {
+      "id": "pl_8b54445d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Bertrand Traore",
+      "externalSource": "sportsdb",
+      "externalId": "34155785"
+    },
+    {
+      "id": "pl_ca60e3eb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Brian Brobbey",
+      "externalSource": "sportsdb",
+      "externalId": "34173230"
+    },
+    {
+      "id": "pl_cb245805",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Chemsdine Talbi",
+      "externalSource": "sportsdb",
+      "externalId": "34252091"
+    },
+    {
+      "id": "pl_2e4cac1f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Christopher Rigg",
+      "externalSource": "sportsdb",
+      "externalId": "34215704"
+    },
+    {
+      "id": "pl_7bf6c85e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Daniel Ballard",
+      "externalSource": "sportsdb",
+      "externalId": "34178275"
+    },
+    {
+      "id": "pl_467aa254",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Dennis Cirkin",
+      "externalSource": "sportsdb",
+      "externalId": "34197636"
+    },
+    {
+      "id": "pl_914e802e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Eliezer Mayenda",
+      "externalSource": "sportsdb",
+      "externalId": "34222435"
+    },
+    {
+      "id": "pl_e3a7c498",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Enzo Le Fée",
+      "externalSource": "sportsdb",
+      "externalId": "34173355"
+    },
+    {
+      "id": "pl_4c9fd3d9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3f7cc85",
+      "name": "Granit Xhaka",
+      "externalSource": "sportsdb",
+      "externalId": "34160884"
+    },
+    {
+      "id": "pl_f56473e4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Antonín Kinský",
+      "externalSource": "sportsdb",
+      "externalId": "34223321"
+    },
+    {
+      "id": "pl_8e13730d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Archie Gray",
+      "externalSource": "sportsdb",
+      "externalId": "34219978"
+    },
+    {
+      "id": "pl_79863010",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Ben Davies",
+      "externalSource": "sportsdb",
+      "externalId": "34146232"
+    },
+    {
+      "id": "pl_58194155",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Brandon Austin",
+      "externalSource": "sportsdb",
+      "externalId": "34184214"
+    },
+    {
+      "id": "pl_e9f9b13d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Conor Gallagher",
+      "externalSource": "sportsdb",
+      "externalId": "34172789"
+    },
+    {
+      "id": "pl_a6f5e07d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Cristian Romero",
+      "externalSource": "sportsdb",
+      "externalId": "34164243"
+    },
+    {
+      "id": "pl_937bce94",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Dejan Kulusevski",
+      "externalSource": "sportsdb",
+      "externalId": "34169203"
+    },
+    {
+      "id": "pl_c0b638cf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Destiny Udogie",
+      "externalSource": "sportsdb",
+      "externalId": "34176351"
+    },
+    {
+      "id": "pl_e0b52aa9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Djed Spence",
+      "externalSource": "sportsdb",
+      "externalId": "34173595"
+    },
+    {
+      "id": "pl_8b02a224",
+      "sportId": "sp_soccer",
+      "teamId": "tm_e1870901",
+      "name": "Dominic Solanke",
+      "externalSource": "sportsdb",
+      "externalId": "34145539"
+    },
+    {
+      "id": "pl_349301cd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Aaron Wan-Bissaka",
+      "externalSource": "sportsdb",
+      "externalId": "34167575"
+    },
+    {
+      "id": "pl_9b5a31e2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Adama Traoré",
+      "externalSource": "sportsdb",
+      "externalId": "34160529"
+    },
+    {
+      "id": "pl_367b2692",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Alphonse Areola",
+      "externalSource": "sportsdb",
+      "externalId": "34152584"
+    },
+    {
+      "id": "pl_3bc2c8ad",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Axel Disasi",
+      "externalSource": "sportsdb",
+      "externalId": "34166118"
+    },
+    {
+      "id": "pl_81a9a485",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Bruno Saltor",
+      "externalSource": "sportsdb",
+      "externalId": "34267607"
+    },
+    {
+      "id": "pl_463e8e80",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Callum Wilson",
+      "externalSource": "sportsdb",
+      "externalId": "34160895"
+    },
+    {
+      "id": "pl_8a7def01",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Casper Ankergren",
+      "externalSource": "sportsdb",
+      "externalId": "34147880"
+    },
+    {
+      "id": "pl_a7109034",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Crysencio Summerville",
+      "externalSource": "sportsdb",
+      "externalId": "34170347"
+    },
+    {
+      "id": "pl_da56d05b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "El Hadji Malick Diouf",
+      "externalSource": "sportsdb",
+      "externalId": "34229663"
+    },
+    {
+      "id": "pl_2250b00c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0ae8aaf0",
+      "name": "Freddie Potts",
+      "externalSource": "sportsdb",
+      "externalId": "34220436"
+    },
+    {
+      "id": "pl_5a7fc20e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Adam Armstrong",
+      "externalSource": "sportsdb",
+      "externalId": "34146086"
+    },
+    {
+      "id": "pl_c7de54ea",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "André",
+      "externalSource": "sportsdb",
+      "externalId": "34196651"
+    },
+    {
+      "id": "pl_a349c804",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Angel Gomes",
+      "externalSource": "sportsdb",
+      "externalId": "34170150"
+    },
+    {
+      "id": "pl_3bbf51f8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Daniel Bentley",
+      "externalSource": "sportsdb",
+      "externalId": "34157261"
+    },
+    {
+      "id": "pl_3a0faa6c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "David Møller Wolfe",
+      "externalSource": "sportsdb",
+      "externalId": "34218144"
+    },
+    {
+      "id": "pl_b763ba88",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Enso González",
+      "externalSource": "sportsdb",
+      "externalId": "34220296"
+    },
+    {
+      "id": "pl_f0f4bd76",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Hugo Bueno",
+      "externalSource": "sportsdb",
+      "externalId": "34201921"
+    },
+    {
+      "id": "pl_2d3b1d6b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Hwang Hee-chan",
+      "externalSource": "sportsdb",
+      "externalId": "34169114"
+    },
+    {
+      "id": "pl_c1477b8d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Jackson Tchatchoua",
+      "externalSource": "sportsdb",
+      "externalId": "34226047"
+    },
+    {
+      "id": "pl_78793124",
+      "sportId": "sp_soccer",
+      "teamId": "tm_5c922230",
+      "name": "Jean-Ricner Bellegarde",
+      "externalSource": "sportsdb",
+      "externalId": "34173557"
+    },
+    {
+      "id": "pl_807630ad",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Alex Cochrane",
+      "externalSource": "sportsdb",
+      "externalId": "34192371"
+    },
+    {
+      "id": "pl_c18e151f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "August Priske",
+      "externalSource": "sportsdb",
+      "externalId": "34248066"
+    },
+    {
+      "id": "pl_79dd87b3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Bright Osayi-Samuel",
+      "externalSource": "sportsdb",
+      "externalId": "34173570"
+    },
+    {
+      "id": "pl_93a08ca8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Carlos Vicente",
+      "externalSource": "sportsdb",
+      "externalId": "34228159"
+    },
+    {
+      "id": "pl_539e30bb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Chris Davies",
+      "externalSource": "sportsdb",
+      "externalId": "34247639"
+    },
+    {
+      "id": "pl_909a97e0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Christoph Klarer",
+      "externalSource": "sportsdb",
+      "externalId": "34179436"
+    },
+    {
+      "id": "pl_73c1dd45",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Demarai Gray",
+      "externalSource": "sportsdb",
+      "externalId": "34148958"
+    },
+    {
+      "id": "pl_b5388c71",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Eiran Cashin",
+      "externalSource": "sportsdb",
+      "externalId": "34195633"
+    },
+    {
+      "id": "pl_66985f18",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Ethan Laird",
+      "externalSource": "sportsdb",
+      "externalId": "34192753"
+    },
+    {
+      "id": "pl_6daf11c1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ba6e7330",
+      "name": "Ibrahim Osman",
+      "externalSource": "sportsdb",
+      "externalId": "34220853"
+    },
+    {
+      "id": "pl_95370d2d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Adam Forshaw",
+      "externalSource": "sportsdb",
+      "externalId": "34148537"
+    },
+    {
+      "id": "pl_43121e6b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Andri Guðjohnsen",
+      "externalSource": "sportsdb",
+      "externalId": "34193290"
+    },
+    {
+      "id": "pl_ed75ace8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Augustus Kargbo",
+      "externalSource": "sportsdb",
+      "externalId": "34172572"
+    },
+    {
+      "id": "pl_b7210cf4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Axel Henriksson",
+      "externalSource": "sportsdb",
+      "externalId": "34242420"
+    },
+    {
+      "id": "pl_d9af8c96",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Aynsley Pears",
+      "externalSource": "sportsdb",
+      "externalId": "34215674"
+    },
+    {
+      "id": "pl_1ad9e4b3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Balázs Tóth",
+      "externalSource": "sportsdb",
+      "externalId": "34232122"
+    },
+    {
+      "id": "pl_8a0a7948",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Brandon Powell",
+      "externalSource": "sportsdb",
+      "externalId": "34433661"
+    },
+    {
+      "id": "pl_fb37f7ef",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Dion De Neve",
+      "externalSource": "sportsdb",
+      "externalId": "34220604"
+    },
+    {
+      "id": "pl_ce256f96",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Harry Pickering",
+      "externalSource": "sportsdb",
+      "externalId": "34162280"
+    },
+    {
+      "id": "pl_696b4929",
+      "sportId": "sp_soccer",
+      "teamId": "tm_867425f9",
+      "name": "Hayden Carter",
+      "externalSource": "sportsdb",
+      "externalId": "34192703"
+    },
+    {
+      "id": "pl_8a8cf246",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Adam Randell",
+      "externalSource": "sportsdb",
+      "externalId": "34200108"
+    },
+    {
+      "id": "pl_efb2ce3f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Anis Mehmeti",
+      "externalSource": "sportsdb",
+      "externalId": "34173945"
+    },
+    {
+      "id": "pl_a946f25d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Cameron Pring",
+      "externalSource": "sportsdb",
+      "externalId": "34192630"
+    },
+    {
+      "id": "pl_bca911cd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Elijah Morrison",
+      "externalSource": "sportsdb",
+      "externalId": "34294515"
+    },
+    {
+      "id": "pl_fb842cab",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Emil Riis Jakobsen",
+      "externalSource": "sportsdb",
+      "externalId": "34176313"
+    },
+    {
+      "id": "pl_5d695675",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Ephrahim Yeboah",
+      "externalSource": "sportsdb",
+      "externalId": "34220915"
+    },
+    {
+      "id": "pl_2421d413",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Fally N'Dofunsu Mayulu",
+      "externalSource": "sportsdb",
+      "externalId": "34233822"
+    },
+    {
+      "id": "pl_c3a4223c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "George Earthy",
+      "externalSource": "sportsdb",
+      "externalId": "34231769"
+    },
+    {
+      "id": "pl_8634d766",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "George Tanner",
+      "externalSource": "sportsdb",
+      "externalId": "34194085"
+    },
+    {
+      "id": "pl_bd746d29",
+      "sportId": "sp_soccer",
+      "teamId": "tm_102c3a30",
+      "name": "Gerhard Struber",
+      "externalSource": "sportsdb",
+      "externalId": "34168983"
+    },
+    {
+      "id": "pl_d38b4e8f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Alan Mwamba",
+      "externalSource": "sportsdb",
+      "externalId": "34432836"
+    },
+    {
+      "id": "pl_e9b9b9fa",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Amari'i Bell",
+      "externalSource": "sportsdb",
+      "externalId": "34148969"
+    },
+    {
+      "id": "pl_1f805c4e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Ashley Maynard-Brewer",
+      "externalSource": "sportsdb",
+      "externalId": "34218284"
+    },
+    {
+      "id": "pl_f16997a6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Charlie Kelman",
+      "externalSource": "sportsdb",
+      "externalId": "34176974"
+    },
+    {
+      "id": "pl_dd31a493",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Conor Coventry",
+      "externalSource": "sportsdb",
+      "externalId": "34193346"
+    },
+    {
+      "id": "pl_3d9f0d84",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Greg Docherty",
+      "externalSource": "sportsdb",
+      "externalId": "34158322"
+    },
+    {
+      "id": "pl_49a9a852",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Harvey Knibbs",
+      "externalSource": "sportsdb",
+      "externalId": "34217744"
+    },
+    {
+      "id": "pl_30365b0c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "Ibrahim Fullah",
+      "externalSource": "sportsdb",
+      "externalId": "34432835"
+    },
+    {
+      "id": "pl_5b331b00",
+      "sportId": "sp_soccer",
+      "teamId": "tm_01e25355",
+      "name": "James Bree",
+      "externalSource": "sportsdb",
+      "externalId": "34158619"
+    },
+    {
+      "id": "pl_90992939",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Ben Wilson",
+      "externalSource": "sportsdb",
+      "externalId": "34145379"
+    },
+    {
+      "id": "pl_658cc415",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Bobby Thomas",
+      "externalSource": "sportsdb",
+      "externalId": "34217618"
+    },
+    {
+      "id": "pl_8055068e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Brandon Thomas-Asante",
+      "externalSource": "sportsdb",
+      "externalId": "34216160"
+    },
+    {
+      "id": "pl_55496713",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Carl Rushworth",
+      "externalSource": "sportsdb",
+      "externalId": "34217615"
+    },
+    {
+      "id": "pl_c92ec407",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Ellis Simms",
+      "externalSource": "sportsdb",
+      "externalId": "34178276"
+    },
+    {
+      "id": "pl_2e135959",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Ephron Mason-Clark",
+      "externalSource": "sportsdb",
+      "externalId": "34215798"
+    },
+    {
+      "id": "pl_8adaff35",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Frank Lampard",
+      "externalSource": "sportsdb",
+      "externalId": "34145590"
+    },
+    {
+      "id": "pl_5c05f37c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Haji Wright",
+      "externalSource": "sportsdb",
+      "externalId": "34170612"
+    },
+    {
+      "id": "pl_7d3b1080",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Jack Rudoni",
+      "externalSource": "sportsdb",
+      "externalId": "34178755"
+    },
+    {
+      "id": "pl_a26e964c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_60feb30b",
+      "name": "Jake Bidwell",
+      "externalSource": "sportsdb",
+      "externalId": "34147777"
+    },
+    {
+      "id": "pl_27208361",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Andreas Weimann",
+      "externalSource": "sportsdb",
+      "externalId": "34145468"
+    },
+    {
+      "id": "pl_0d376036",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Ben Brereton Díaz",
+      "externalSource": "sportsdb",
+      "externalId": "34161549"
+    },
+    {
+      "id": "pl_e13a6eaa",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Bobby Clark",
+      "externalSource": "sportsdb",
+      "externalId": "34221703"
+    },
+    {
+      "id": "pl_9e8449c7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Callum Elder",
+      "externalSource": "sportsdb",
+      "externalId": "34145687"
+    },
+    {
+      "id": "pl_f38e109b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Carlton Morris",
+      "externalSource": "sportsdb",
+      "externalId": "34157576"
+    },
+    {
+      "id": "pl_729c84b5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Corey Taylor",
+      "externalSource": "sportsdb",
+      "externalId": "34178335"
+    },
+    {
+      "id": "pl_813651ee",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Craig Forsyth",
+      "externalSource": "sportsdb",
+      "externalId": "34147647"
+    },
+    {
+      "id": "pl_07b322dc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Curtis Nelson",
+      "externalSource": "sportsdb",
+      "externalId": "34157378"
+    },
+    {
+      "id": "pl_b0135cb7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "Danny Batth",
+      "externalSource": "sportsdb",
+      "externalId": "34148867"
+    },
+    {
+      "id": "pl_c295ff9f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_76e190a2",
+      "name": "David Ozoh",
+      "externalSource": "sportsdb",
+      "externalId": "34222389"
+    },
+    {
+      "id": "pl_486c2a2e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Akin Famewo",
+      "externalSource": "sportsdb",
+      "externalId": "34162369"
+    },
+    {
+      "id": "pl_21ec3c72",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Amir Hadžiahmetović",
+      "externalSource": "sportsdb",
+      "externalId": "34178568"
+    },
+    {
+      "id": "pl_06021d03",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Brandon Williams",
+      "externalSource": "sportsdb",
+      "externalId": "34170148"
+    },
+    {
+      "id": "pl_ce4c5cf4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Charlie Hughes",
+      "externalSource": "sportsdb",
+      "externalId": "34203488"
+    },
+    {
+      "id": "pl_f2f32472",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Cody Drameh",
+      "externalSource": "sportsdb",
+      "externalId": "34195226"
+    },
+    {
+      "id": "pl_1a2db6da",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Darko Gyabi",
+      "externalSource": "sportsdb",
+      "externalId": "34203228"
+    },
+    {
+      "id": "pl_0dd8a6ff",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "David Akintola",
+      "externalSource": "sportsdb",
+      "externalId": "34274562"
+    },
+    {
+      "id": "pl_cc983b12",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Dillon Phillips",
+      "externalSource": "sportsdb",
+      "externalId": "34148643"
+    },
+    {
+      "id": "pl_35ecffd7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Eliot Matazo",
+      "externalSource": "sportsdb",
+      "externalId": "34173896"
+    },
+    {
+      "id": "pl_937f7aa3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_be65e035",
+      "name": "Enis Destan",
+      "externalSource": "sportsdb",
+      "externalId": "34221510"
+    },
+    {
+      "id": "pl_25bb5406",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Alex Palmer",
+      "externalSource": "sportsdb",
+      "externalId": "34177243"
+    },
+    {
+      "id": "pl_d15d026d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Ashley Young",
+      "externalSource": "sportsdb",
+      "externalId": "34145651"
+    },
+    {
+      "id": "pl_8b50f0c5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Azor Matusiwa",
+      "externalSource": "sportsdb",
+      "externalId": "34170405"
+    },
+    {
+      "id": "pl_fc5a590d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Ben Johnson",
+      "externalSource": "sportsdb",
+      "externalId": "34170167"
+    },
+    {
+      "id": "pl_f6d76244",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Cameron Humphreys",
+      "externalSource": "sportsdb",
+      "externalId": "34215681"
+    },
+    {
+      "id": "pl_e99a835d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Cédric Kipré",
+      "externalSource": "sportsdb",
+      "externalId": "34172396"
+    },
+    {
+      "id": "pl_5127f2f1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Christian Walton",
+      "externalSource": "sportsdb",
+      "externalId": "34147881"
+    },
+    {
+      "id": "pl_d901dc41",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Chuba Akpom",
+      "externalSource": "sportsdb",
+      "externalId": "34145428"
+    },
+    {
+      "id": "pl_a4aa6dac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Conor Townsend",
+      "externalSource": "sportsdb",
+      "externalId": "34145888"
+    },
+    {
+      "id": "pl_23c6a15c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_cee0e4ed",
+      "name": "Dan Neil",
+      "externalSource": "sportsdb",
+      "externalId": "34200237"
+    },
+    {
+      "id": "pl_569b04e8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Aaron Ramsey",
+      "externalSource": "sportsdb",
+      "externalId": "34200397"
+    },
+    {
+      "id": "pl_168f778d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Abdul Fatawu",
+      "externalSource": "sportsdb",
+      "externalId": "34201827"
+    },
+    {
+      "id": "pl_5c2cbb05",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Asmir Begović",
+      "externalSource": "sportsdb",
+      "externalId": "34145943"
+    },
+    {
+      "id": "pl_c2055f40",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Ben Nelson",
+      "externalSource": "sportsdb",
+      "externalId": "34220745"
+    },
+    {
+      "id": "pl_be1d3fed",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Bobby Decordova-Reid",
+      "externalSource": "sportsdb",
+      "externalId": "34159086"
+    },
+    {
+      "id": "pl_3b671817",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Boubakary Soumaré",
+      "externalSource": "sportsdb",
+      "externalId": "34174048"
+    },
+    {
+      "id": "pl_4a67b74a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Divine Tayon Mahogany Mukasa",
+      "externalSource": "sportsdb",
+      "externalId": "34434238"
+    },
+    {
+      "id": "pl_b28beae1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Dujuan Richards",
+      "externalSource": "sportsdb",
+      "externalId": "34434240"
+    },
+    {
+      "id": "pl_6e0f1f38",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Fran Vieites",
+      "externalSource": "sportsdb",
+      "externalId": "34222725"
+    },
+    {
+      "id": "pl_7549bf6a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_f3b33dd4",
+      "name": "Hamza Choudhury",
+      "externalSource": "sportsdb",
+      "externalId": "34160997"
+    },
+    {
+      "id": "pl_c4ca2447",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Abdoulaye Kanté",
+      "externalSource": "sportsdb",
+      "externalId": "34241807"
+    },
+    {
+      "id": "pl_a2ff8a12",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Aidan Morris",
+      "externalSource": "sportsdb",
+      "externalId": "34173641"
+    },
+    {
+      "id": "pl_168091be",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Alan Browne",
+      "externalSource": "sportsdb",
+      "externalId": "34158758"
+    },
+    {
+      "id": "pl_a988c0d1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Alex Bangura",
+      "externalSource": "sportsdb",
+      "externalId": "34194994"
+    },
+    {
+      "id": "pl_c7b971d1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Alex Gilbert",
+      "externalSource": "sportsdb",
+      "externalId": "34220785"
+    },
+    {
+      "id": "pl_4cf37b4e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Alfie Jones",
+      "externalSource": "sportsdb",
+      "externalId": "34179408"
+    },
+    {
+      "id": "pl_eb38309a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Callum Brittain",
+      "externalSource": "sportsdb",
+      "externalId": "34161811"
+    },
+    {
+      "id": "pl_8a8e868e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Dael Fry",
+      "externalSource": "sportsdb",
+      "externalId": "34160951"
+    },
+    {
+      "id": "pl_bf5993ce",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "Darragh Lenihan",
+      "externalSource": "sportsdb",
+      "externalId": "34148696"
+    },
+    {
+      "id": "pl_174c3f1f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_25f0d608",
+      "name": "David Strelec",
+      "externalSource": "sportsdb",
+      "externalId": "34193329"
+    },
+    {
+      "id": "pl_8e6db040",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Aidomo Emakhu",
+      "externalSource": "sportsdb",
+      "externalId": "34220487"
+    },
+    {
+      "id": "pl_45572fe8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Alex Neil",
+      "externalSource": "sportsdb",
+      "externalId": "34158326"
+    },
+    {
+      "id": "pl_336b3517",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Alfie Doughty",
+      "externalSource": "sportsdb",
+      "externalId": "34193441"
+    },
+    {
+      "id": "pl_cb29460a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Anthony Patterson",
+      "externalSource": "sportsdb",
+      "externalId": "34197635"
+    },
+    {
+      "id": "pl_eb3b1725",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Billy Mitchell",
+      "externalSource": "sportsdb",
+      "externalId": "34177865"
+    },
+    {
+      "id": "pl_997ff7b0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Caleb Taylor",
+      "externalSource": "sportsdb",
+      "externalId": "34200232"
+    },
+    {
+      "id": "pl_7d08de2a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Camiel Neghli",
+      "externalSource": "sportsdb",
+      "externalId": "34220713"
+    },
+    {
+      "id": "pl_8165217d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Casper Norre",
+      "externalSource": "sportsdb",
+      "externalId": "34175760"
+    },
+    {
+      "id": "pl_a8e073e9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Daniel Kelly",
+      "externalSource": "sportsdb",
+      "externalId": "34242406"
+    },
+    {
+      "id": "pl_c51f8008",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fb9940cb",
+      "name": "Danny McNamara",
+      "externalSource": "sportsdb",
+      "externalId": "34173834"
+    },
+    {
+      "id": "pl_d61c5ad3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Ali Ahmed",
+      "externalSource": "sportsdb",
+      "externalId": "34217597"
+    },
+    {
+      "id": "pl_67361222",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Anis Ben Slimane",
+      "externalSource": "sportsdb",
+      "externalId": "34173669"
+    },
+    {
+      "id": "pl_e271f273",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Ante Crnac",
+      "externalSource": "sportsdb",
+      "externalId": "34221957"
+    },
+    {
+      "id": "pl_85e91d39",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Benjamin Chrisene",
+      "externalSource": "sportsdb",
+      "externalId": "34219371"
+    },
+    {
+      "id": "pl_54657343",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Daniel Grimshaw",
+      "externalSource": "sportsdb",
+      "externalId": "34194018"
+    },
+    {
+      "id": "pl_33624847",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Emiliano Marcondes",
+      "externalSource": "sportsdb",
+      "externalId": "34173591"
+    },
+    {
+      "id": "pl_c00256c0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Forson Amankwah",
+      "externalSource": "sportsdb",
+      "externalId": "34216073"
+    },
+    {
+      "id": "pl_caa2a553",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Gabriel Forsyth",
+      "externalSource": "sportsdb",
+      "externalId": "34293925"
+    },
+    {
+      "id": "pl_0454a2e7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Harry Darling",
+      "externalSource": "sportsdb",
+      "externalId": "34164023"
+    },
+    {
+      "id": "pl_081163c2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2f8ffcee",
+      "name": "Jack Stacey",
+      "externalSource": "sportsdb",
+      "externalId": "34146283"
+    },
+    {
+      "id": "pl_c52b5e0f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Brian De Keersmaecker",
+      "externalSource": "sportsdb",
+      "externalId": "34220673"
+    },
+    {
+      "id": "pl_a6c6fd25",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Brodie Spencer",
+      "externalSource": "sportsdb",
+      "externalId": "34199269"
+    },
+    {
+      "id": "pl_9bffa49b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Cameron Brannigan",
+      "externalSource": "sportsdb",
+      "externalId": "34145917"
+    },
+    {
+      "id": "pl_ccbb4375",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Ciaron Brown",
+      "externalSource": "sportsdb",
+      "externalId": "34173844"
+    },
+    {
+      "id": "pl_5680e827",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Filip Yavorov Krastev",
+      "externalSource": "sportsdb",
+      "externalId": "34220327"
+    },
+    {
+      "id": "pl_36c6925d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Gary Rowett",
+      "externalSource": "sportsdb",
+      "externalId": "34168333"
+    },
+    {
+      "id": "pl_82af0a14",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Gatlin O'Donkor",
+      "externalSource": "sportsdb",
+      "externalId": "34225470"
+    },
+    {
+      "id": "pl_aebd6657",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Gregory Alex Leigh",
+      "externalSource": "sportsdb",
+      "externalId": "34203589"
+    },
+    {
+      "id": "pl_e652d001",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a5da8daf",
+      "name": "Hidde ter Avest",
+      "externalSource": "sportsdb",
+      "externalId": "34155866"
+    },
+    {
+      "id": "pl_3e40ce35",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Adrian Segecic",
+      "externalSource": "sportsdb",
+      "externalId": "34219467"
+    },
+    {
+      "id": "pl_5aa01d3a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Aji Alese",
+      "externalSource": "sportsdb",
+      "externalId": "34195135"
+    },
+    {
+      "id": "pl_f344e9b5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Andre Dozzell",
+      "externalSource": "sportsdb",
+      "externalId": "34161099"
+    },
+    {
+      "id": "pl_3ede758e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Ben Killip",
+      "externalSource": "sportsdb",
+      "externalId": "34162356"
+    },
+    {
+      "id": "pl_1f2fac8d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Callum Lang",
+      "externalSource": "sportsdb",
+      "externalId": "34161997"
+    },
+    {
+      "id": "pl_26f35558",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Colby Bishop",
+      "externalSource": "sportsdb",
+      "externalId": "34158922"
+    },
+    {
+      "id": "pl_9b2f365a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Connor Ogilvie",
+      "externalSource": "sportsdb",
+      "externalId": "34146201"
+    },
+    {
+      "id": "pl_f2925a91",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Conor Chaplin",
+      "externalSource": "sportsdb",
+      "externalId": "34157652"
+    },
+    {
+      "id": "pl_71e12473",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Conor Shaughnessy",
+      "externalSource": "sportsdb",
+      "externalId": "34161528"
+    },
+    {
+      "id": "pl_03c25bb6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a312a2a7",
+      "name": "Florian Bianchini",
+      "externalSource": "sportsdb",
+      "externalId": "34175020"
+    },
+    {
+      "id": "pl_cf8f9f06",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Alfie Devine",
+      "externalSource": "sportsdb",
+      "externalId": "34175822"
+    },
+    {
+      "id": "pl_1b6b37e5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Alistair McCann",
+      "externalSource": "sportsdb",
+      "externalId": "34173835"
+    },
+    {
+      "id": "pl_8d42461d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Andrew Hughes",
+      "externalSource": "sportsdb",
+      "externalId": "34161847"
+    },
+    {
+      "id": "pl_2a9d27dd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Andrija Vukčević",
+      "externalSource": "sportsdb",
+      "externalId": "34175652"
+    },
+    {
+      "id": "pl_7becf42a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Benjamin Whiteman",
+      "externalSource": "sportsdb",
+      "externalId": "34159027"
+    },
+    {
+      "id": "pl_dcf8e5f2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Brad Potts",
+      "externalSource": "sportsdb",
+      "externalId": "34161471"
+    },
+    {
+      "id": "pl_339b62bf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Daniel Iversen",
+      "externalSource": "sportsdb",
+      "externalId": "34163765"
+    },
+    {
+      "id": "pl_853501e0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Daniel Jebbison",
+      "externalSource": "sportsdb",
+      "externalId": "34180111"
+    },
+    {
+      "id": "pl_2728351d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "David Cornell",
+      "externalSource": "sportsdb",
+      "externalId": "34145769"
+    },
+    {
+      "id": "pl_01633e16",
+      "sportId": "sp_soccer",
+      "teamId": "tm_857ab961",
+      "name": "Jack Walton",
+      "externalSource": "sportsdb",
+      "externalId": "34173024"
+    },
+    {
+      "id": "pl_24320896",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Amadou Mbengue",
+      "externalSource": "sportsdb",
+      "externalId": "34196046"
+    },
+    {
+      "id": "pl_57875e9e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Ben Hamer",
+      "externalSource": "sportsdb",
+      "externalId": "34145718"
+    },
+    {
+      "id": "pl_2486332d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Esquerdinha",
+      "externalSource": "sportsdb",
+      "externalId": "34248194"
+    },
+    {
+      "id": "pl_fe29b054",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Harvey Vale",
+      "externalSource": "sportsdb",
+      "externalId": "34195349"
+    },
+    {
+      "id": "pl_5d25cf93",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Ilias Chair",
+      "externalSource": "sportsdb",
+      "externalId": "34173571"
+    },
+    {
+      "id": "pl_9d83487a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Isaac Hayden",
+      "externalSource": "sportsdb",
+      "externalId": "34145403"
+    },
+    {
+      "id": "pl_775c8f38",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Jake Clarke-Salter",
+      "externalSource": "sportsdb",
+      "externalId": "34160910"
+    },
+    {
+      "id": "pl_4d6a96ea",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Jimmy Dunne",
+      "externalSource": "sportsdb",
+      "externalId": "34162162"
+    },
+    {
+      "id": "pl_2e0b5a76",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Jonathan Varane",
+      "externalSource": "sportsdb",
+      "externalId": "34253133"
+    },
+    {
+      "id": "pl_76621c44",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9a4cf26c",
+      "name": "Joseph Walsh",
+      "externalSource": "sportsdb",
+      "externalId": "34234523"
+    },
+    {
+      "id": "pl_411ddd20",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Adam Davies",
+      "externalSource": "sportsdb",
+      "externalId": "34158599"
+    },
+    {
+      "id": "pl_70bfaf8d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Alex Matos",
+      "externalSource": "sportsdb",
+      "externalId": "34221737"
+    },
+    {
+      "id": "pl_a745b435",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Andre Brooks",
+      "externalSource": "sportsdb",
+      "externalId": "34216318"
+    },
+    {
+      "id": "pl_a4077d50",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Ben Godfrey",
+      "externalSource": "sportsdb",
+      "externalId": "34157686"
+    },
+    {
+      "id": "pl_5a2ac92a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Ben Mee",
+      "externalSource": "sportsdb",
+      "externalId": "34146034"
+    },
+    {
+      "id": "pl_cfd60e0a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Callum O'Hare",
+      "externalSource": "sportsdb",
+      "externalId": "34173928"
+    },
+    {
+      "id": "pl_cabb7297",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Chiedozie Ogbene",
+      "externalSource": "sportsdb",
+      "externalId": "34164056"
+    },
+    {
+      "id": "pl_0096529d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Chris Wilder",
+      "externalSource": "sportsdb",
+      "externalId": "34165563"
+    },
+    {
+      "id": "pl_d73f86c7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Christian Nwachukwu",
+      "externalSource": "sportsdb",
+      "externalId": "34238646"
+    },
+    {
+      "id": "pl_ca36bc29",
+      "sportId": "sp_soccer",
+      "teamId": "tm_fd868d10",
+      "name": "Danny Ings",
+      "externalSource": "sportsdb",
+      "externalId": "34146051"
+    },
+    {
+      "id": "pl_48f7559d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Bailey-Tye Cadamarteri",
+      "externalSource": "sportsdb",
+      "externalId": "34225669"
+    },
+    {
+      "id": "pl_9766bd01",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Barry Bannan",
+      "externalSource": "sportsdb",
+      "externalId": "34145564"
+    },
+    {
+      "id": "pl_3a216a39",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Charlie McNeill",
+      "externalSource": "sportsdb",
+      "externalId": "34217723"
+    },
+    {
+      "id": "pl_956eabd8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Di'Shon Bernard",
+      "externalSource": "sportsdb",
+      "externalId": "34192912"
+    },
+    {
+      "id": "pl_9d9baf14",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Dominic Iorfa",
+      "externalSource": "sportsdb",
+      "externalId": "34148890"
+    },
+    {
+      "id": "pl_fc11f618",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Gabriel Otegbayo",
+      "externalSource": "sportsdb",
+      "externalId": "34252281"
+    },
+    {
+      "id": "pl_3955b1d2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "George Brown",
+      "externalSource": "sportsdb",
+      "externalId": "34419720"
+    },
+    {
+      "id": "pl_a26ee498",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Guilherme Siqueira",
+      "externalSource": "sportsdb",
+      "externalId": "34229442"
+    },
+    {
+      "id": "pl_99955706",
+      "sportId": "sp_soccer",
+      "teamId": "tm_0d847f80",
+      "name": "Harry Amass",
+      "externalSource": "sportsdb",
+      "externalId": "34244629"
+    },
+    {
+      "id": "pl_67741035",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Alex McCarthy",
+      "externalSource": "sportsdb",
+      "externalId": "34146147"
+    },
+    {
+      "id": "pl_9f95b7e7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Cameron Archer",
+      "externalSource": "sportsdb",
+      "externalId": "34193627"
+    },
+    {
+      "id": "pl_a26b3853",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Caspar Jander",
+      "externalSource": "sportsdb",
+      "externalId": "34245501"
+    },
+    {
+      "id": "pl_060e0c0b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Damion Downs",
+      "externalSource": "sportsdb",
+      "externalId": "34221697"
+    },
+    {
+      "id": "pl_45d4ea57",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Daniel Peretz",
+      "externalSource": "sportsdb",
+      "externalId": "34196477"
+    },
+    {
+      "id": "pl_6a34e145",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Elias Jelert",
+      "externalSource": "sportsdb",
+      "externalId": "34201756"
+    },
+    {
+      "id": "pl_31461034",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Finn Azaz",
+      "externalSource": "sportsdb",
+      "externalId": "34176399"
+    },
+    {
+      "id": "pl_dc37166c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Flynn Downes",
+      "externalSource": "sportsdb",
+      "externalId": "34161521"
+    },
+    {
+      "id": "pl_ab2fc71e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "Gavin Bazunu",
+      "externalSource": "sportsdb",
+      "externalId": "34181621"
+    },
+    {
+      "id": "pl_3b5d766b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_8ecdd40d",
+      "name": "George Long",
+      "externalSource": "sportsdb",
+      "externalId": "34159003"
+    },
+    {
+      "id": "pl_c353b056",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Aaron Cresswell",
+      "externalSource": "sportsdb",
+      "externalId": "34146014"
+    },
+    {
+      "id": "pl_da3f1ea3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Ashley Phillips",
+      "externalSource": "sportsdb",
+      "externalId": "34200211"
+    },
+    {
+      "id": "pl_062bfe92",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Ben Gibson",
+      "externalSource": "sportsdb",
+      "externalId": "34147686"
+    },
+    {
+      "id": "pl_d043de18",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Ben Pearson",
+      "externalSource": "sportsdb",
+      "externalId": "34158631"
+    },
+    {
+      "id": "pl_07e477a4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Ben Wilmot",
+      "externalSource": "sportsdb",
+      "externalId": "34173217"
+    },
+    {
+      "id": "pl_1f8b9595",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Bosun Lawal",
+      "externalSource": "sportsdb",
+      "externalId": "34222105"
+    },
+    {
+      "id": "pl_8e597c49",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Divin Mubama",
+      "externalSource": "sportsdb",
+      "externalId": "34202506"
+    },
+    {
+      "id": "pl_4bb6ea6c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Eric Bocat",
+      "externalSource": "sportsdb",
+      "externalId": "34175597"
+    },
+    {
+      "id": "pl_21310d7b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Frank Fielding",
+      "externalSource": "sportsdb",
+      "externalId": "34159070"
+    },
+    {
+      "id": "pl_17a9c5e2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_607a4fb1",
+      "name": "Jack Bonham",
+      "externalSource": "sportsdb",
+      "externalId": "34147768"
+    },
+    {
+      "id": "pl_975bc8b8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Adam Idah",
+      "externalSource": "sportsdb",
+      "externalId": "34170154"
+    },
+    {
+      "id": "pl_80a3300d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Andy Fisher",
+      "externalSource": "sportsdb",
+      "externalId": "34161619"
+    },
+    {
+      "id": "pl_e7ecc0ac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Ben Cabango",
+      "externalSource": "sportsdb",
+      "externalId": "34172254"
+    },
+    {
+      "id": "pl_42318658",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Bobby Wales",
+      "externalSource": "sportsdb",
+      "externalId": "34227884"
+    },
+    {
+      "id": "pl_ea0acb34",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Cameron Burgess",
+      "externalSource": "sportsdb",
+      "externalId": "34148631"
+    },
+    {
+      "id": "pl_bf7450dc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Ethan Galbraith",
+      "externalSource": "sportsdb",
+      "externalId": "34222332"
+    },
+    {
+      "id": "pl_93291895",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Gonçalo Franco",
+      "externalSource": "sportsdb",
+      "externalId": "34191768"
+    },
+    {
+      "id": "pl_e4ec99ae",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Ishé Samuels-Smith",
+      "externalSource": "sportsdb",
+      "externalId": "34279550"
+    },
+    {
+      "id": "pl_3e1b9c86",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Jay Fulton",
+      "externalSource": "sportsdb",
+      "externalId": "34145798"
+    },
+    {
+      "id": "pl_119785c8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_d3e82512",
+      "name": "Ji-Sung Eom",
+      "externalSource": "sportsdb",
+      "externalId": "34230559"
+    },
+    {
+      "id": "pl_2900acad",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Caleb Wiley",
+      "externalSource": "sportsdb",
+      "externalId": "34196599"
+    },
+    {
+      "id": "pl_96305480",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Edo Kayembe",
+      "externalSource": "sportsdb",
+      "externalId": "34172196"
+    },
+    {
+      "id": "pl_54fe91b4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Egil Selvik",
+      "externalSource": "sportsdb",
+      "externalId": "34218150"
+    },
+    {
+      "id": "pl_2508e8ac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Formose Mendy",
+      "externalSource": "sportsdb",
+      "externalId": "34200745"
+    },
+    {
+      "id": "pl_ba0b5b64",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Giorgi Chakvetadze",
+      "externalSource": "sportsdb",
+      "externalId": "34221787"
+    },
+    {
+      "id": "pl_72b66c4c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Hector Kyprianou",
+      "externalSource": "sportsdb",
+      "externalId": "34215797"
+    },
+    {
+      "id": "pl_b22f91ba",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Imran Louza",
+      "externalSource": "sportsdb",
+      "externalId": "34173290"
+    },
+    {
+      "id": "pl_a9bb00e5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "James Adusei Abankwah",
+      "externalSource": "sportsdb",
+      "externalId": "34219352"
+    },
+    {
+      "id": "pl_41a73909",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "James Morris",
+      "externalSource": "sportsdb",
+      "externalId": "34195847"
+    },
+    {
+      "id": "pl_c90eedcf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a66cb08a",
+      "name": "Javi Gracia",
+      "externalSource": "sportsdb",
+      "externalId": "34165484"
+    },
+    {
+      "id": "pl_c90976cb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Alex Mowatt",
+      "externalSource": "sportsdb",
+      "externalId": "34147855"
+    },
+    {
+      "id": "pl_57bb01bc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Alfie Gilchrist",
+      "externalSource": "sportsdb",
+      "externalId": "34226855"
+    },
+    {
+      "id": "pl_b4ea6545",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Aune Selland Heggebø",
+      "externalSource": "sportsdb",
+      "externalId": "34218176"
+    },
+    {
+      "id": "pl_68fcfd74",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Callum Styles",
+      "externalSource": "sportsdb",
+      "externalId": "34161718"
+    },
+    {
+      "id": "pl_5285ce52",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Charlie Taylor",
+      "externalSource": "sportsdb",
+      "externalId": "34147863"
+    },
+    {
+      "id": "pl_ad39d720",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Chris Mepham",
+      "externalSource": "sportsdb",
+      "externalId": "34161487"
+    },
+    {
+      "id": "pl_8cc3d3d6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Daryl Dike",
+      "externalSource": "sportsdb",
+      "externalId": "34177458"
+    },
+    {
+      "id": "pl_04236de1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "George Campbell",
+      "externalSource": "sportsdb",
+      "externalId": "34193338"
+    },
+    {
+      "id": "pl_26dcfb7f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Isaac Price",
+      "externalSource": "sportsdb",
+      "externalId": "34198579"
+    },
+    {
+      "id": "pl_332f6b75",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c22741c1",
+      "name": "Jayson Molumby",
+      "externalSource": "sportsdb",
+      "externalId": "34176311"
+    },
+    {
+      "id": "pl_2fed8e3c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Andrew Cannon",
+      "externalSource": "sportsdb",
+      "externalId": "34163929"
+    },
+    {
+      "id": "pl_d2a55674",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Arthur Okonkwo",
+      "externalSource": "sportsdb",
+      "externalId": "34216070"
+    },
+    {
+      "id": "pl_1f0aabdc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Ben Sheaf",
+      "externalSource": "sportsdb",
+      "externalId": "34173926"
+    },
+    {
+      "id": "pl_14c007c9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Callum Burton",
+      "externalSource": "sportsdb",
+      "externalId": "34217605"
+    },
+    {
+      "id": "pl_0b7656f5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Callum Doyle",
+      "externalSource": "sportsdb",
+      "externalId": "34197638"
+    },
+    {
+      "id": "pl_f31a4e7a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Conor Coady",
+      "externalSource": "sportsdb",
+      "externalId": "34148894"
+    },
+    {
+      "id": "pl_7fadd083",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Dan Scarr",
+      "externalSource": "sportsdb",
+      "externalId": "34200107"
+    },
+    {
+      "id": "pl_a6dc6c2e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Danny Ward",
+      "externalSource": "sportsdb",
+      "externalId": "34145900"
+    },
+    {
+      "id": "pl_b2bdd75a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Davis Keillor-Dunn",
+      "externalSource": "sportsdb",
+      "externalId": "34217641"
+    },
+    {
+      "id": "pl_8a4904fc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a41c352f",
+      "name": "Dominic Hyam",
+      "externalSource": "sportsdb",
+      "externalId": "34162262"
+    },
+    {
+      "id": "pl_5b144b2f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Adil Aouchiche",
+      "externalSource": "sportsdb",
+      "externalId": "34173447"
+    },
+    {
+      "id": "pl_6e1ac909",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Alexander Jensen",
+      "externalSource": "sportsdb",
+      "externalId": "34220907"
+    },
+    {
+      "id": "pl_fdd0dee5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Alfie Dorrington",
+      "externalSource": "sportsdb",
+      "externalId": "34336975"
+    },
+    {
+      "id": "pl_6b0b0f8e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Ante Palaversa",
+      "externalSource": "sportsdb",
+      "externalId": "34202048"
+    },
+    {
+      "id": "pl_de52dbc2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Dimitar Mitov",
+      "externalSource": "sportsdb",
+      "externalId": "34148673"
+    },
+    {
+      "id": "pl_0a07c1b9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Gavin Molloy",
+      "externalSource": "sportsdb",
+      "externalId": "34244917"
+    },
+    {
+      "id": "pl_c88b7e58",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Graeme Shinnie",
+      "externalSource": "sportsdb",
+      "externalId": "34156680"
+    },
+    {
+      "id": "pl_94dccdc9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Jack Milne",
+      "externalSource": "sportsdb",
+      "externalId": "34225953"
+    },
+    {
+      "id": "pl_63d9a2f0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Jesper Karlsson",
+      "externalSource": "sportsdb",
+      "externalId": "34177444"
+    },
+    {
+      "id": "pl_9e6ccdbe",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ff2b4bc7",
+      "name": "Jimmy Thelin",
+      "externalSource": "sportsdb",
+      "externalId": "34244829"
+    },
+    {
+      "id": "pl_9179730d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Alex Oxlade-Chamberlain",
+      "externalSource": "sportsdb",
+      "externalId": "34145410"
+    },
+    {
+      "id": "pl_6e089e56",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Alistair Johnston",
+      "externalSource": "sportsdb",
+      "externalId": "34180906"
+    },
+    {
+      "id": "pl_f43451f6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Anthony Ralston",
+      "externalSource": "sportsdb",
+      "externalId": "34161898"
+    },
+    {
+      "id": "pl_04e280e6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Arne Engels",
+      "externalSource": "sportsdb",
+      "externalId": "34203397"
+    },
+    {
+      "id": "pl_8f8c06fd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Auston Trusty",
+      "externalSource": "sportsdb",
+      "externalId": "34180884"
+    },
+    {
+      "id": "pl_e50f69ef",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Callum McGregor",
+      "externalSource": "sportsdb",
+      "externalId": "34147051"
+    },
+    {
+      "id": "pl_a7438f31",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Cameron Carter-Vickers",
+      "externalSource": "sportsdb",
+      "externalId": "34161018"
+    },
+    {
+      "id": "pl_c97f59a6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Daizen Maeda",
+      "externalSource": "sportsdb",
+      "externalId": "34180666"
+    },
+    {
+      "id": "pl_8b4a4eec",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Dane Murray",
+      "externalSource": "sportsdb",
+      "externalId": "34258618"
+    },
+    {
+      "id": "pl_9cefdfb8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_eda06326",
+      "name": "Erik Nygren",
+      "externalSource": "sportsdb",
+      "externalId": "34175631"
+    },
+    {
+      "id": "pl_c7c3d456",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Aaron Donnelly",
+      "externalSource": "sportsdb",
+      "externalId": "34218266"
+    },
+    {
+      "id": "pl_edcb54da",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Ashley Hay",
+      "externalSource": "sportsdb",
+      "externalId": "34303857"
+    },
+    {
+      "id": "pl_e37edc42",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Billy Koumetio",
+      "externalSource": "sportsdb",
+      "externalId": "34174056"
+    },
+    {
+      "id": "pl_3c6f8283",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Callum Jones",
+      "externalSource": "sportsdb",
+      "externalId": "34222316"
+    },
+    {
+      "id": "pl_87a29f6d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Cameron Congreve",
+      "externalSource": "sportsdb",
+      "externalId": "34216328"
+    },
+    {
+      "id": "pl_604bb0b4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "César Garza",
+      "externalSource": "sportsdb",
+      "externalId": "34234152"
+    },
+    {
+      "id": "pl_53f69644",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Charlie Reilly",
+      "externalSource": "sportsdb",
+      "externalId": "34245273"
+    },
+    {
+      "id": "pl_0c23a880",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Clark Robertson",
+      "externalSource": "sportsdb",
+      "externalId": "34156641"
+    },
+    {
+      "id": "pl_e8c94b11",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Drey Wright",
+      "externalSource": "sportsdb",
+      "externalId": "34162247"
+    },
+    {
+      "id": "pl_72e69f30",
+      "sportId": "sp_soccer",
+      "teamId": "tm_854d4822",
+      "name": "Emile Acquah",
+      "externalSource": "sportsdb",
+      "externalId": "34222242"
+    },
+    {
+      "id": "pl_5bb8eaf6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Amar Fatah",
+      "externalSource": "sportsdb",
+      "externalId": "34244624"
+    },
+    {
+      "id": "pl_e7bed7a4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Bert Esselink",
+      "externalSource": "sportsdb",
+      "externalId": "34221896"
+    },
+    {
+      "id": "pl_01a2808a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Craig Sibbald",
+      "externalSource": "sportsdb",
+      "externalId": "34173813"
+    },
+    {
+      "id": "pl_e8b3b9c5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Dario Naamo",
+      "externalSource": "sportsdb",
+      "externalId": "34432947"
+    },
+    {
+      "id": "pl_50d8547b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Dave Richards",
+      "externalSource": "sportsdb",
+      "externalId": "34159071"
+    },
+    {
+      "id": "pl_ecde05cb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Isaac Pappoe",
+      "externalSource": "sportsdb",
+      "externalId": "34432948"
+    },
+    {
+      "id": "pl_af71bb7e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Iurie Iovu",
+      "externalSource": "sportsdb",
+      "externalId": "34236420"
+    },
+    {
+      "id": "pl_d75dca89",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Ivan Dolček",
+      "externalSource": "sportsdb",
+      "externalId": "34240257"
+    },
+    {
+      "id": "pl_9796fa7a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Jim Goodwin",
+      "externalSource": "sportsdb",
+      "externalId": "34158196"
+    },
+    {
+      "id": "pl_aa471b99",
+      "sportId": "sp_soccer",
+      "teamId": "tm_ce2caa59",
+      "name": "Julius Eskesen",
+      "externalSource": "sportsdb",
+      "externalId": "34175943"
+    },
+    {
+      "id": "pl_44c45234",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Aidan Nesbitt",
+      "externalSource": "sportsdb",
+      "externalId": "34161813"
+    },
+    {
+      "id": "pl_bc6a3f3c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Alfredo Agyeman",
+      "externalSource": "sportsdb",
+      "externalId": "34227827"
+    },
+    {
+      "id": "pl_49138bb5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Barney Stewart",
+      "externalSource": "sportsdb",
+      "externalId": "34433309"
+    },
+    {
+      "id": "pl_15e0180b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Benjamin Broggio",
+      "externalSource": "sportsdb",
+      "externalId": "34433976"
+    },
+    {
+      "id": "pl_2023aa36",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Brad Spencer",
+      "externalSource": "sportsdb",
+      "externalId": "34227823"
+    },
+    {
+      "id": "pl_f614340d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Brian Graham",
+      "externalSource": "sportsdb",
+      "externalId": "34162228"
+    },
+    {
+      "id": "pl_b5fe74c3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Calvin Miller",
+      "externalSource": "sportsdb",
+      "externalId": "34227822"
+    },
+    {
+      "id": "pl_535dd893",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Coll Donaldson",
+      "externalSource": "sportsdb",
+      "externalId": "34146122"
+    },
+    {
+      "id": "pl_6cda8aa8",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Connor Allan",
+      "externalSource": "sportsdb",
+      "externalId": "34258545"
+    },
+    {
+      "id": "pl_2273e810",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b86ee8d3",
+      "name": "Dylan Tait",
+      "externalSource": "sportsdb",
+      "externalId": "34227845"
+    },
+    {
+      "id": "pl_889b486a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Alan Forrest",
+      "externalSource": "sportsdb",
+      "externalId": "34173814"
+    },
+    {
+      "id": "pl_7320c3b6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Alexander Schwolow",
+      "externalSource": "sportsdb",
+      "externalId": "34154972"
+    },
+    {
+      "id": "pl_07864191",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Alexandros Kyziridis",
+      "externalSource": "sportsdb",
+      "externalId": "34232109"
+    },
+    {
+      "id": "pl_0194c69d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Beni Baningime",
+      "externalSource": "sportsdb",
+      "externalId": "34170140"
+    },
+    {
+      "id": "pl_70b3636b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Blair Spittal",
+      "externalSource": "sportsdb",
+      "externalId": "34219017"
+    },
+    {
+      "id": "pl_016d76dc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Calem Nieuwenhof",
+      "externalSource": "sportsdb",
+      "externalId": "34175356"
+    },
+    {
+      "id": "pl_d48bb031",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Cammy Devlin",
+      "externalSource": "sportsdb",
+      "externalId": "34175349"
+    },
+    {
+      "id": "pl_d2ee171e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Christian Dahle Borchgrevink",
+      "externalSource": "sportsdb",
+      "externalId": "34242769"
+    },
+    {
+      "id": "pl_86c03ab2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Cláudio Soares Braga",
+      "externalSource": "sportsdb",
+      "externalId": "34250137"
+    },
+    {
+      "id": "pl_17fe79e3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_b36e80fe",
+      "name": "Craig Gordon",
+      "externalSource": "sportsdb",
+      "externalId": "34147053"
+    },
+    {
+      "id": "pl_e4b6e7de",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Alasana Manneh",
+      "externalSource": "sportsdb",
+      "externalId": "34195481"
+    },
+    {
+      "id": "pl_cc37b98b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Christopher Cadden",
+      "externalSource": "sportsdb",
+      "externalId": "34158288"
+    },
+    {
+      "id": "pl_5ebb010b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Dane Scarlett",
+      "externalSource": "sportsdb",
+      "externalId": "34177306"
+    },
+    {
+      "id": "pl_05b492f3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Daniel Barlaser",
+      "externalSource": "sportsdb",
+      "externalId": "34162290"
+    },
+    {
+      "id": "pl_7695448a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "David Gray",
+      "externalSource": "sportsdb",
+      "externalId": "34165371"
+    },
+    {
+      "id": "pl_c1619480",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Dylan Levitt",
+      "externalSource": "sportsdb",
+      "externalId": "34172256"
+    },
+    {
+      "id": "pl_f5dfb0e3",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Élie Youan",
+      "externalSource": "sportsdb",
+      "externalId": "34192979"
+    },
+    {
+      "id": "pl_48a00bce",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Felix Passlack",
+      "externalSource": "sportsdb",
+      "externalId": "34170478"
+    },
+    {
+      "id": "pl_58182c8f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Grant Hanley",
+      "externalSource": "sportsdb",
+      "externalId": "34148686"
+    },
+    {
+      "id": "pl_ac740fe6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_3bf0ba59",
+      "name": "Jack Iredale",
+      "externalSource": "sportsdb",
+      "externalId": "34220412"
+    },
+    {
+      "id": "pl_45d952e7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Ben Brannan",
+      "externalSource": "sportsdb",
+      "externalId": "34293794"
+    },
+    {
+      "id": "pl_63d6fe0b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Bradley Lyons",
+      "externalSource": "sportsdb",
+      "externalId": "34225870"
+    },
+    {
+      "id": "pl_cfceae08",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Bruce Anderson",
+      "externalSource": "sportsdb",
+      "externalId": "34161909"
+    },
+    {
+      "id": "pl_0fb7b04d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "David Watson",
+      "externalSource": "sportsdb",
+      "externalId": "34219026"
+    },
+    {
+      "id": "pl_003a9949",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Djenairo Daniels",
+      "externalSource": "sportsdb",
+      "externalId": "34346936"
+    },
+    {
+      "id": "pl_51fa54cb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Dominic Thompson",
+      "externalSource": "sportsdb",
+      "externalId": "34173029"
+    },
+    {
+      "id": "pl_a2ae274d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Eddie Beach",
+      "externalSource": "sportsdb",
+      "externalId": "34278636"
+    },
+    {
+      "id": "pl_356061e9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "George Stanger",
+      "externalSource": "sportsdb",
+      "externalId": "34227751"
+    },
+    {
+      "id": "pl_a9e1b575",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Greg Kiltie",
+      "externalSource": "sportsdb",
+      "externalId": "34158252"
+    },
+    {
+      "id": "pl_754b673f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_2c0f8ea2",
+      "name": "Jack Thomson",
+      "externalSource": "sportsdb",
+      "externalId": "34227722"
+    },
+    {
+      "id": "pl_090acde2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Adam Montgomery",
+      "externalSource": "sportsdb",
+      "externalId": "34219013"
+    },
+    {
+      "id": "pl_1961fc3d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Andrew Shinnie",
+      "externalSource": "sportsdb",
+      "externalId": "34148956"
+    },
+    {
+      "id": "pl_42585d67",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Andy Winter",
+      "externalSource": "sportsdb",
+      "externalId": "34173819"
+    },
+    {
+      "id": "pl_0a402764",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Cameron Kerr",
+      "externalSource": "sportsdb",
+      "externalId": "34158399"
+    },
+    {
+      "id": "pl_8a5558f6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Cristian Montano",
+      "externalSource": "sportsdb",
+      "externalId": "34158863"
+    },
+    {
+      "id": "pl_6cdedd73",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Daniel Finlayson",
+      "externalSource": "sportsdb",
+      "externalId": "34258662"
+    },
+    {
+      "id": "pl_49a29c92",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Danny Wilson",
+      "externalSource": "sportsdb",
+      "externalId": "34161920"
+    },
+    {
+      "id": "pl_ae4d12ac",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "David Martindale",
+      "externalSource": "sportsdb",
+      "externalId": "34219793"
+    },
+    {
+      "id": "pl_82f6ce2d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Jannik Ikendo Wanner",
+      "externalSource": "sportsdb",
+      "externalId": "34433641"
+    },
+    {
+      "id": "pl_0922f25b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_a152d487",
+      "name": "Jerome Prior",
+      "externalSource": "sportsdb",
+      "externalId": "34147405"
+    },
+    {
+      "id": "pl_b00484f2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Andy Halliday",
+      "externalSource": "sportsdb",
+      "externalId": "34165459"
+    },
+    {
+      "id": "pl_b61b94b2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Aston Oxborough",
+      "externalSource": "sportsdb",
+      "externalId": "34245495"
+    },
+    {
+      "id": "pl_01880481",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Callum Hendry",
+      "externalSource": "sportsdb",
+      "externalId": "34173848"
+    },
+    {
+      "id": "pl_6c7dfadf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Callum Slattery",
+      "externalSource": "sportsdb",
+      "externalId": "34176860"
+    },
+    {
+      "id": "pl_353b95d1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Calum Ward",
+      "externalSource": "sportsdb",
+      "externalId": "34294364"
+    },
+    {
+      "id": "pl_4fd41fcd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Dylan Wells",
+      "externalSource": "sportsdb",
+      "externalId": "34279786"
+    },
+    {
+      "id": "pl_de5d693c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Elijah Just",
+      "externalSource": "sportsdb",
+      "externalId": "34200684"
+    },
+    {
+      "id": "pl_2b27fc8e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Elliot Watt",
+      "externalSource": "sportsdb",
+      "externalId": "34217672"
+    },
+    {
+      "id": "pl_fc829e53",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Emmanuel Longelo",
+      "externalSource": "sportsdb",
+      "externalId": "34202942"
+    },
+    {
+      "id": "pl_055feae0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_7dfaf32d",
+      "name": "Eseosa Sule",
+      "externalSource": "sportsdb",
+      "externalId": "34301603"
+    },
+    {
+      "id": "pl_2e59cfa7",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Bojan Miovski",
+      "externalSource": "sportsdb",
+      "externalId": "34218994"
+    },
+    {
+      "id": "pl_b5a4978d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Clinton Nsiala",
+      "externalSource": "sportsdb",
+      "externalId": "34246069"
+    },
+    {
+      "id": "pl_c71e3f54",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Connor Barron",
+      "externalSource": "sportsdb",
+      "externalId": "34219025"
+    },
+    {
+      "id": "pl_ea1e5fdb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Danilo",
+      "externalSource": "sportsdb",
+      "externalId": "34192027"
+    },
+    {
+      "id": "pl_2382e1cc",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Danny Röhl",
+      "externalSource": "sportsdb",
+      "externalId": "34229088"
+    },
+    {
+      "id": "pl_cf56b21a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Derek Cornelius",
+      "externalSource": "sportsdb",
+      "externalId": "34200757"
+    },
+    {
+      "id": "pl_6f68e3de",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Djeidi Gassama",
+      "externalSource": "sportsdb",
+      "externalId": "34225463"
+    },
+    {
+      "id": "pl_b25afae1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Dujon Sterling",
+      "externalSource": "sportsdb",
+      "externalId": "34163865"
+    },
+    {
+      "id": "pl_b7c990ec",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Emmanuel Fernandez",
+      "externalSource": "sportsdb",
+      "externalId": "34223059"
+    },
+    {
+      "id": "pl_60ece77e",
+      "sportId": "sp_soccer",
+      "teamId": "tm_61ba2602",
+      "name": "Findlay Curtis",
+      "externalSource": "sportsdb",
+      "externalId": "34296649"
+    },
+    {
+      "id": "pl_5df72804",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Alex Gogic",
+      "externalSource": "sportsdb",
+      "externalId": "34145796"
+    },
+    {
+      "id": "pl_07013353",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Conor McMenamin",
+      "externalSource": "sportsdb",
+      "externalId": "34199074"
+    },
+    {
+      "id": "pl_7b46ef49",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Dan Nlundulu",
+      "externalSource": "sportsdb",
+      "externalId": "34174027"
+    },
+    {
+      "id": "pl_dbe95056",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Declan John",
+      "externalSource": "sportsdb",
+      "externalId": "34145358"
+    },
+    {
+      "id": "pl_c3d48278",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Jalmaro Calvin",
+      "externalSource": "sportsdb",
+      "externalId": "34250409"
+    },
+    {
+      "id": "pl_295055c9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Jayden Richardson",
+      "externalSource": "sportsdb",
+      "externalId": "34193438"
+    },
+    {
+      "id": "pl_af97e4b9",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Jonah Ayunga",
+      "externalSource": "sportsdb",
+      "externalId": "34219019"
+    },
+    {
+      "id": "pl_25d0c657",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Keanu Baccus",
+      "externalSource": "sportsdb",
+      "externalId": "34175389"
+    },
+    {
+      "id": "pl_2cfe977d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Killian Phillips",
+      "externalSource": "sportsdb",
+      "externalId": "34216458"
+    },
+    {
+      "id": "pl_edc2b66f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c0974901",
+      "name": "Liam Donnelly",
+      "externalSource": "sportsdb",
+      "externalId": "34162403"
+    },
+    {
+      "id": "pl_5f6f1cb5",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Aleix García",
+      "externalSource": "sportsdb",
+      "externalId": "34176867"
+    },
+    {
+      "id": "pl_7de9638d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Alejo Sarco",
+      "externalSource": "sportsdb",
+      "externalId": "34238313"
+    },
+    {
+      "id": "pl_a7bb0218",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Alex Grimaldo",
+      "externalSource": "sportsdb",
+      "externalId": "34160527"
+    },
+    {
+      "id": "pl_728c4b10",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Arthur",
+      "externalSource": "sportsdb",
+      "externalId": "34225990"
+    },
+    {
+      "id": "pl_d668fcdb",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Axel Tape",
+      "externalSource": "sportsdb",
+      "externalId": "34303450"
+    },
+    {
+      "id": "pl_493452af",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Christian Kofane",
+      "externalSource": "sportsdb",
+      "externalId": "34303894"
+    },
+    {
+      "id": "pl_4b8a5e31",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Claudio Echeverri",
+      "externalSource": "sportsdb",
+      "externalId": "34236908"
+    },
+    {
+      "id": "pl_94a823ca",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Edmond Tapsoba",
+      "externalSource": "sportsdb",
+      "externalId": "34169692"
+    },
+    {
+      "id": "pl_a6897bcf",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Eliesse Ben Seghir",
+      "externalSource": "sportsdb",
+      "externalId": "34203098"
+    },
+    {
+      "id": "pl_466d1c6f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_031b3b29",
+      "name": "Ernest Poku",
+      "externalSource": "sportsdb",
+      "externalId": "34220695"
+    },
+    {
+      "id": "pl_03068551",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Aleksandar Pavlović",
+      "externalSource": "sportsdb",
+      "externalId": "34222722"
+    },
+    {
+      "id": "pl_ef2310ff",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Alphonso Davies",
+      "externalSource": "sportsdb",
+      "externalId": "34164270"
+    },
+    {
+      "id": "pl_de4c0943",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Dayot Upamecano",
+      "externalSource": "sportsdb",
+      "externalId": "34164100"
+    },
+    {
+      "id": "pl_de3fb684",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Harry Kane",
+      "externalSource": "sportsdb",
+      "externalId": "34146220"
+    },
+    {
+      "id": "pl_3fd6a16f",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Hiroki Ito",
+      "externalSource": "sportsdb",
+      "externalId": "34193542"
+    },
+    {
+      "id": "pl_808c7780",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Jamal Musiala",
+      "externalSource": "sportsdb",
+      "externalId": "34173035"
+    },
+    {
+      "id": "pl_fc48defa",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Jan-Christian Dreesen",
+      "externalSource": "sportsdb",
+      "externalId": "34434133"
+    },
+    {
+      "id": "pl_03c03c2a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Jonas Urbig",
+      "externalSource": "sportsdb",
+      "externalId": "34216985"
+    },
+    {
+      "id": "pl_ffe64375",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Jonathan Tah",
+      "externalSource": "sportsdb",
+      "externalId": "34154903"
+    },
+    {
+      "id": "pl_77b775a6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_24031077",
+      "name": "Joshua Kimmich",
+      "externalSource": "sportsdb",
+      "externalId": "34160666"
+    },
+    {
+      "id": "pl_39f6f18d",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Aarón Anselmino",
+      "externalSource": "sportsdb",
+      "externalId": "34237873"
+    },
+    {
+      "id": "pl_ca61b1d6",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Alexander Meyer",
+      "externalSource": "sportsdb",
+      "externalId": "34174593"
+    },
+    {
+      "id": "pl_21a5cf47",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Carney Chukwuemeka",
+      "externalSource": "sportsdb",
+      "externalId": "34180739"
+    },
+    {
+      "id": "pl_8afc3cb4",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Cole Campbell",
+      "externalSource": "sportsdb",
+      "externalId": "34252757"
+    },
+    {
+      "id": "pl_46051c26",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Daniel Svensson",
+      "externalSource": "sportsdb",
+      "externalId": "34175869"
+    },
+    {
+      "id": "pl_b6ac8ecd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Emre Can",
+      "externalSource": "sportsdb",
+      "externalId": "34145936"
+    },
+    {
+      "id": "pl_5dd1bf2a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Fábio Silva",
+      "externalSource": "sportsdb",
+      "externalId": "34172407"
+    },
+    {
+      "id": "pl_83183931",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Felix Nmecha",
+      "externalSource": "sportsdb",
+      "externalId": "34175791"
+    },
+    {
+      "id": "pl_d911625b",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Filippo Mané",
+      "externalSource": "sportsdb",
+      "externalId": "34253732"
+    },
+    {
+      "id": "pl_c2b42023",
+      "sportId": "sp_soccer",
+      "teamId": "tm_c497f20b",
+      "name": "Gregor Kobel",
+      "externalSource": "sportsdb",
+      "externalId": "34173096"
+    },
+    {
+      "id": "pl_71b677d0",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Charles Herrmann",
+      "externalSource": "sportsdb",
+      "externalId": "34434127"
+    },
+    {
+      "id": "pl_d9080b58",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Eugen Polanski",
+      "externalSource": "sportsdb",
+      "externalId": "34155144"
+    },
+    {
+      "id": "pl_55d2135a",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Fabio Chiarodia",
+      "externalSource": "sportsdb",
+      "externalId": "34216718"
+    },
+    {
+      "id": "pl_4e71d674",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Florian Neuhaus",
+      "externalSource": "sportsdb",
+      "externalId": "34169242"
+    },
+    {
+      "id": "pl_161b8172",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Franck Honorat",
+      "externalSource": "sportsdb",
+      "externalId": "34152850"
+    },
+    {
+      "id": "pl_643553b2",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Giovanni Reyna",
+      "externalSource": "sportsdb",
+      "externalId": "34170047"
+    },
+    {
+      "id": "pl_6da86ac1",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Grant-Leon Ranos",
+      "externalSource": "sportsdb",
+      "externalId": "34225277"
+    },
+    {
+      "id": "pl_017eeb9c",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Haris Tabaković",
+      "externalSource": "sportsdb",
+      "externalId": "34216099"
+    },
+    {
+      "id": "pl_1275f784",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Jens Castrop",
+      "externalSource": "sportsdb",
+      "externalId": "34216973"
+    },
+    {
+      "id": "pl_2de15ffd",
+      "sportId": "sp_soccer",
+      "teamId": "tm_9b4f02f1",
+      "name": "Joe Scally",
+      "externalSource": "sportsdb",
+      "externalId": "34192510"
     }
   ],
   "follows": [
     {
-      "id": "fol_c92f8f3dee73473d",
+      "id": "fol_7a29a77a695ffde1",
       "userId": "usr_68458141cf3af0db",
       "entityType": "sport",
-      "entityId": "sp_cri",
-      "createdAt": "2026-02-25T15:05:50.266Z"
+      "entityId": "sp_squash",
+      "createdAt": "2026-02-28T07:04:30.045Z"
     },
     {
-      "id": "fol_72aac01d7e45754d",
+      "id": "fol_e60baace9687127b",
       "userId": "usr_68458141cf3af0db",
-      "entityType": "team",
-      "entityId": "tm_ind",
-      "createdAt": "2026-02-25T15:05:50.266Z"
+      "entityType": "sport",
+      "entityId": "sp_soccer",
+      "createdAt": "2026-02-28T07:04:30.046Z"
+    },
+    {
+      "id": "fol_99545e904b3e96e1",
+      "userId": "usr_68458141cf3af0db",
+      "entityType": "sport",
+      "entityId": "sp_badminton",
+      "createdAt": "2026-02-28T07:04:30.047Z"
+    },
+    {
+      "id": "fol_d8cc78738e91e9ed",
+      "userId": "usr_68458141cf3af0db",
+      "entityType": "sport",
+      "entityId": "sp_cricket",
+      "createdAt": "2026-02-28T07:04:30.048Z"
+    },
+    {
+      "id": "fol_bcd6c9ad047be76a",
+      "userId": "usr_411b7dbf3fad6b0b",
+      "entityType": "sport",
+      "entityId": "sp_soccer",
+      "createdAt": "2026-02-28T07:33:51.591Z"
+    },
+    {
+      "id": "fol_e419233f31975a7d",
+      "userId": "usr_411b7dbf3fad6b0b",
+      "entityType": "league",
+      "entityId": "lg_74b88c31",
+      "createdAt": "2026-02-28T07:38:24.044Z"
+    },
+    {
+      "id": "fol_1c12bfdecb5ee27f",
+      "userId": "usr_411b7dbf3fad6b0b",
+      "entityType": "league",
+      "entityId": "lg_48ef8247",
+      "createdAt": "2026-02-28T07:38:24.044Z"
+    },
+    {
+      "id": "fol_d751f7471fb42cc0",
+      "userId": "usr_68458141cf3af0db",
+      "entityType": "league",
+      "entityId": "lg_2cf839eb",
+      "createdAt": "2026-02-28T09:41:41.916Z"
     }
-  ]
+  ],
+  "sportRequests": [
+    {
+      "id": "spr_191e445945e125a9",
+      "userId": "usr_68458141cf3af0db",
+      "sportName": "Kabaddi",
+      "normalizedName": "kabaddi",
+      "reason": "",
+      "status": "pending",
+      "createdAt": "2026-02-25T18:50:43.024Z"
+    }
+  ],
+  "leagues": [
+    {
+      "id": "lg_39d61bc7",
+      "sportId": "sp_soccer",
+      "name": "English Premier League",
+      "slug": "english-premier-league",
+      "externalSource": "sportsdb",
+      "externalId": "4328"
+    },
+    {
+      "id": "lg_c060cc90",
+      "sportId": "sp_soccer",
+      "name": "English League Championship",
+      "slug": "english-league-championship",
+      "externalSource": "sportsdb",
+      "externalId": "4329"
+    },
+    {
+      "id": "lg_15b59b7e",
+      "sportId": "sp_soccer",
+      "name": "Scottish Premier League",
+      "slug": "scottish-premier-league",
+      "externalSource": "sportsdb",
+      "externalId": "4330"
+    },
+    {
+      "id": "lg_48ef8247",
+      "sportId": "sp_soccer",
+      "name": "German Bundesliga",
+      "slug": "german-bundesliga",
+      "externalSource": "sportsdb",
+      "externalId": "4331"
+    },
+    {
+      "id": "lg_2cf839eb",
+      "sportId": "sp_soccer",
+      "name": "Italian Serie A",
+      "slug": "italian-serie-a",
+      "externalSource": "sportsdb",
+      "externalId": "4332"
+    },
+    {
+      "id": "lg_c207f2c6",
+      "sportId": "sp_soccer",
+      "name": "French Ligue 1",
+      "slug": "french-ligue-1",
+      "externalSource": "sportsdb",
+      "externalId": "4334"
+    },
+    {
+      "id": "lg_74b88c31",
+      "sportId": "sp_soccer",
+      "name": "Spanish La Liga",
+      "slug": "spanish-la-liga",
+      "externalSource": "sportsdb",
+      "externalId": "4335"
+    },
+    {
+      "id": "lg_f8805836",
+      "sportId": "sp_soccer",
+      "name": "Greek Superleague Greece",
+      "slug": "greek-superleague-greece",
+      "externalSource": "sportsdb",
+      "externalId": "4336"
+    },
+    {
+      "id": "lg_a378eed5",
+      "sportId": "sp_soccer",
+      "name": "Dutch Eredivisie",
+      "slug": "dutch-eredivisie",
+      "externalSource": "sportsdb",
+      "externalId": "4337"
+    },
+    {
+      "id": "lg_4beaf54d",
+      "sportId": "sp_soccer",
+      "name": "Belgian Pro League",
+      "slug": "belgian-pro-league",
+      "externalSource": "sportsdb",
+      "externalId": "4338"
+    }
+  ],
+  "userSportOrder": {
+    "usr_68458141cf3af0db": [
+      "sp_squash",
+      "sp_soccer",
+      "sp_badminton",
+      "sp_cricket"
+    ],
+    "usr_411b7dbf3fad6b0b": [
+      "sp_soccer"
+    ]
+  },
+  "syncHistory": [
+    {
+      "id": "sync_c039cc576504db7d",
+      "createdAt": "2026-02-28T09:39:37.428Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_cricket",
+      "timedOut": false,
+      "touchedTeams": 0,
+      "touchedPlayerTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_10f85d18e73ffc43",
+      "createdAt": "2026-02-28T09:39:04.378Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "timedOut": false,
+      "touchedTeams": 30,
+      "touchedPlayerTeams": 8,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_5820e989c903569a",
+      "createdAt": "2026-02-28T08:20:32.342Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 20,
+      "touchedPlayerTeams": 6,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_066cf65817fc9373",
+      "createdAt": "2026-02-28T08:18:22.706Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 100,
+      "touchedPlayerTeams": 20,
+      "createdTeams": 40,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_4ca50da41fd06f9f",
+      "createdAt": "2026-02-28T08:16:01.340Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 20,
+      "touchedPlayerTeams": 8,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_5e3d84e9e77cbc26",
+      "createdAt": "2026-02-28T08:12:25.448Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "error",
+      "sportId": "sp_soccer",
+      "error": "SportsDB request failed (404)"
+    },
+    {
+      "id": "sync_9b3199d6f75de462",
+      "createdAt": "2026-02-28T08:11:51.261Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "error",
+      "sportId": "sp_soccer",
+      "error": "SportsDB request failed (404)"
+    },
+    {
+      "id": "sync_cd13dc44196753b6",
+      "createdAt": "2026-02-28T07:38:24.019Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 60,
+      "createdTeams": 60,
+      "createdPlayers": 597,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_53aa93a1d04e41bd",
+      "createdAt": "2026-02-28T07:22:26.461Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_tennis",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_7cf75ad8244945ad",
+      "createdAt": "2026-02-28T07:22:22.019Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_cricket",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_308634c859544058",
+      "createdAt": "2026-02-28T07:22:17.282Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_baseball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_39b81c9c76e5e4ab",
+      "createdAt": "2026-02-28T07:22:12.804Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_american_football",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_9e4b61d4392368b6",
+      "createdAt": "2026-02-28T07:22:08.357Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_basketball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_fd7e5208f4feb74c",
+      "createdAt": "2026-02-28T07:22:03.924Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_bf1b8098303f01b9",
+      "createdAt": "2026-02-28T07:22:03.519Z",
+      "source": "sportsdb",
+      "type": "leagues",
+      "status": "ok",
+      "created": 0,
+      "total": 10
+    },
+    {
+      "id": "sync_8971dc905cfc7871",
+      "createdAt": "2026-02-28T07:22:03.296Z",
+      "source": "sportsdb",
+      "type": "sports",
+      "status": "ok",
+      "created": 0,
+      "total": 1
+    },
+    {
+      "id": "sync_cb6034c58d76fa3e",
+      "createdAt": "2026-02-28T07:20:09.058Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_cricket",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_26922115870491e4",
+      "createdAt": "2026-02-28T07:19:53.292Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_tennis",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_326d7a2c5d87d34e",
+      "createdAt": "2026-02-28T07:19:48.857Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_cricket",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_7a6008eab534f735",
+      "createdAt": "2026-02-28T07:19:44.402Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_baseball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_64b5b5e520daa2ea",
+      "createdAt": "2026-02-28T07:19:39.962Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_american_football",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_3b18901c7351d285",
+      "createdAt": "2026-02-28T07:19:35.513Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "no_data",
+      "sportId": "sp_basketball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_62e848b77324e9f5",
+      "createdAt": "2026-02-28T07:19:31.046Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_59edfd42c96b90d6",
+      "createdAt": "2026-02-28T07:19:22.014Z",
+      "source": "sportsdb",
+      "type": "leagues",
+      "status": "ok",
+      "created": 0,
+      "total": 10
+    },
+    {
+      "id": "sync_bbf14b991dca3efb",
+      "createdAt": "2026-02-28T07:19:21.801Z",
+      "source": "sportsdb",
+      "type": "sports",
+      "status": "ok",
+      "created": 0,
+      "total": 1
+    },
+    {
+      "id": "sync_97d76f7a4b5525f9",
+      "createdAt": "2026-02-28T07:18:16.195Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    {
+      "id": "sync_37b1f833e142aa6f",
+      "createdAt": "2026-02-28T07:15:16.061Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_tennis",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_33da5bdeef96f177",
+      "createdAt": "2026-02-28T07:15:11.812Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_cricket",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_9e7aab6305869942",
+      "createdAt": "2026-02-28T07:15:07.538Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_baseball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_1d1bc1ccc68f2e28",
+      "createdAt": "2026-02-28T07:15:03.285Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_american_football",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_16ca7b4c142e0c02",
+      "createdAt": "2026-02-28T07:14:59.015Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_basketball",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_6065b48fce0df3d8",
+      "createdAt": "2026-02-28T07:14:54.744Z",
+      "source": "sportsdb",
+      "type": "catalog",
+      "status": "ok",
+      "sportId": "sp_soccer",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0
+    },
+    {
+      "id": "sync_6b80d11fe44136a0",
+      "createdAt": "2026-02-28T07:14:54.546Z",
+      "source": "sportsdb",
+      "type": "leagues",
+      "status": "ok",
+      "created": 0,
+      "total": 10
+    },
+    {
+      "id": "sync_1fc584fbc31fac42",
+      "createdAt": "2026-02-28T07:14:54.343Z",
+      "source": "sportsdb",
+      "type": "sports",
+      "status": "ok",
+      "created": 0,
+      "total": 1
+    }
+  ],
+  "catalogSyncState": {
+    "sp_basketball": {
+      "lastAttemptAt": "2026-02-28T07:22:08.357Z",
+      "lastSuccessAt": null,
+      "status": "no_data",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_american_football": {
+      "lastAttemptAt": "2026-02-28T07:22:12.803Z",
+      "lastSuccessAt": null,
+      "status": "no_data",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_baseball": {
+      "lastAttemptAt": "2026-02-28T07:22:17.282Z",
+      "lastSuccessAt": null,
+      "status": "no_data",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_cricket": {
+      "lastAttemptAt": "2026-02-28T09:39:37.428Z",
+      "lastSuccessAt": null,
+      "status": "no_data",
+      "timedOut": false,
+      "touchedTeams": 0,
+      "touchedPlayerTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_tennis": {
+      "lastAttemptAt": "2026-02-28T07:22:26.461Z",
+      "lastSuccessAt": null,
+      "status": "no_data",
+      "touchedTeams": 0,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_soccer": {
+      "lastAttemptAt": "2026-02-28T09:39:04.376Z",
+      "lastSuccessAt": "2026-02-28T09:39:04.377Z",
+      "status": "ok",
+      "timedOut": false,
+      "touchedTeams": 30,
+      "touchedPlayerTeams": 8,
+      "createdTeams": 0,
+      "createdPlayers": 0,
+      "createdLeagues": 0
+    },
+    "sp_formula_1": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_mixed_martial_arts": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_golf": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_ice_hockey": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_boxing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_professional_wrestling": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_badminton": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_table_tennis": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_volleyball": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_beach_volleyball": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_handball": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_rugby": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_rugby_sevens": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_lacrosse": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_squash": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_snooker": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_darts": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_cycling": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_triathlon": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_swimming": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_athletics": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_gymnastics": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_weightlifting": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_powerlifting": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_bowling": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_sport_climbing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_skateboarding": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_surfing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_rowing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_canoe_sprint": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_judo": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_taekwondo": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_wrestling": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_archery": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_fencing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_equestrian": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_shooting": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_skiing": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_snowboarding": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_curling": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    },
+    "sp_esports": {
+      "status": "never",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    }
+  },
+  "feedCacheBySport": {
+    "sp_squash": {
+      "sp_squash|t:|p:|l:": {
+        "fetchedAt": "2026-02-28T09:41:31.961Z",
+        "highlights": [],
+        "news": [
+          {
+            "type": "news",
+            "title": "How Philly Became the Capital of American Squash - Philadelphia Magazine",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xTlB5cjNhUHB5TlNraHBoR01PNHZDLUNxTFNibEU4NzR4dFNwR2lXUDZyQ096MnFvaTJsYnY0a2RlX1RQNzEwemJhV2I0b0w5SGhWQm9GUkI3cy0zQkRBbVMxMHRUMEhFRVNsZy1hcw?oc=5",
+            "date": "Fri, 06 Jun 2025 07:00:00 GMT",
+            "source": "Google News",
+            "league": "Squash latest sports news"
+          },
+          {
+            "type": "news",
+            "title": "Who to watch in the five new Olympic sports at LA28 - Milano Cortina 2026",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DUTZMbjRiSmlDYjdOdzdXSWd6OGVFeEtKekJDSXI1V1Z6bjMxMnpnM2ExS3UzcHRWZU1jLXkwbGVZWDFlamxUMnM1czZGWHJUdHY1V18xTzRrbmc0MV9fMVVxTHRRRWhuTkxzY0dzbW9TS05zb1Zwc0xXSE5WRmM?oc=5",
+            "date": "Fri, 18 Apr 2025 07:00:00 GMT",
+            "source": "Google News",
+            "league": "Squash latest sports news"
+          },
+          {
+            "type": "news",
+            "title": "Nottingham's Jana Safy bests the field at the 2025 BUCS Individual Squash Championships - University of Nottingham",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZlVzMGZBTXp0UGJlcFhWbjBkaGltcmFVMDNNY1hEQW5QT1ZVN0lGLW5zRDJmeGlNYllsRl9wZzJKUEZHZDJNLW1aRkY4RVktZ0pVVlgxeEdkMVNsY0NrZTZoZTRGaFZtWlZpQlJLXy02dHY1M1hMVUF6ZDZROTY2TVdXeG5zNDFiNzRMU091TEZJOWw2aElxOXAzN2Vvb2JBdU9LbzUtUm1lQTB0a1JJNm5mdWdwRjZubzBkSHVQS2c5eFBS?oc=5",
+            "date": "Sat, 06 Dec 2025 08:00:00 GMT",
+            "source": "Google News",
+            "league": "Squash latest sports news"
+          }
+        ]
+      }
+    },
+    "sp_badminton": {
+      "sp_badminton|t:|p:|l:": {
+        "fetchedAt": "2026-02-28T09:41:44.784Z",
+        "highlights": [],
+        "news": [
+          {
+            "type": "news",
+            "title": "Badminton reverts to 3x15 scoring format: Change aimed at making sport more engaging; BWF to vote in Apri - The Times of India",
+            "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNYno3ZVU0cFpaUFB6ODlZNV9TSFNTZWRFOUhqa3lSV0xMTkc0YXJtMXFqYmhVaE5LUHpmcUM2aGN5dF9lYkR3QWtxUGRLWGdLMnZnek5ObV9LSXVodWltd01KUS1aVVZPZnQ3Q3VkVXFmR3VPWlhVT0U3VXp4dzczN1BFVmpiLWt4c2dVT1BvQk55UTAyaFBWdUp4cGtQODZQZDJ6MnhWNUlmSVcxRnJkUXVHelBlQ0xoVkNBcjdqQlFxVmpwTVV5ekRfckVVSkJpVXhzd3lfZjlyN001MlR2akZEQzlTdDRKUTZfQ0dhdGNCUmQzUWJxclNuS0xUSDBnTWhFRlFlZVVlbFgxVHFNNG5KWjB6Z9IBmwJBVV95cUxNRXcxaHphTm9ySGl6UTdPcFdvZEU0RExqNS14bjNNN0FaMU5PRE9yaFZDRE5oZzhEV09ITEpmbzROYzB6X212SWw5bzJvNWJLZzBpWldjYWJXTkdkWldiUHJGWjh0RFpnRXFvNlNqS2Fxd1A3R0o0MWtHYjJENm5McmRBVndsUlRjNVlwQUpnZUI1cXR5Tm11cTJPdE1mNlVzOTdGMHpGei1pMV9QSjFHXzEydFU5MWhOdWl5N0FYSFNRWjBlcXRodEpxbmpBRlNnVzBRZk5pdzQyOExfb0UxSnBqcVctQW9uMjIzVmNwMFFQaF9xVUhSMGdCYVY5WHB6SmZERF9TdXdrYlhhQW9aVWtzeEpmeERweDJN?oc=5",
+            "date": "Fri, 13 Feb 2026 08:00:00 GMT",
+            "source": "Google News",
+            "league": "Badminton latest sports news"
+          },
+          {
+            "type": "news",
+            "title": "Badminton World Championship: India draws, top attractions, live streaming - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdktKTk1XdkMyU0xiYmhYTHZTNWJDY1ZBeVpBQmRJVV9vNUo3SGwteDRYRUVZdEtDd2xHQUNjaTk1N1p3em5oRXZrREZNcC16Zi1waG1RdGtLcEIzTjR3OHl5NzVyVUdLY0ZTcFg2YTNWOHUyUVlUczVUc09zSENCbEZLSFMxdHZiRk1CUnEtYy1jbTRRU1V5WUxxcVN0MFNTdWQ1VUtQVDlqUVpCVkFhUWtfM2cyakU2ZXVpV0oxdFRHUUhDWHlqWkpaM2x3QThSY2hsZnF0TjFKOUV4SWtXOG1tT1HSAeoBQVVfeXFMTmhBSmwwMWxPbW00X2lUQmwwZWdDcEhTLWhPYWYyNlpxUVZvRG10VjhrVkdoM3E3QzN3S1EwQUVrOWhoUThRZnVlNEdmVFVkRER4dEptWXI4Nng1YXZlNkFaZ1JOX21GeEpBMm9sNUd5WkxEMzAyRXpsOEFKOGZULXlUdjhRaVBwanBzYU8waG1qR0hzbzJZcFNkNTROYkNGSXJfYXNXSnFmd3l0bmF3amttSm9lZDhBV0tYc1B5OGtEZjgwaTFleUJna3phb2p6UVVRMXNkOHhfSlB4dFBTNEtGTWdKWnR3WkJ3?oc=5",
+            "date": "Sun, 24 Aug 2025 07:00:00 GMT",
+            "source": "Google News",
+            "league": "Badminton latest sports news"
+          },
+          {
+            "type": "news",
+            "title": "Indian sports wrap, October 26: India records best-ever show at Badminton Junior Championships - Sportstar",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcUt1R0V5ZG1Bcmk5R1IyeTJ6RHFCeTJkQ2NrbUhDRW9hWWxlRGhLRGJsSlY0Z2wycFdtZ2tKRnU1dVhIVHc4Q0plUU16dndDZlpzMXJEd0xnb28tTVprTGdJWS0wNVRQQmx2cTVvYnVQejZNNjZ2MTlvRGNUX2FsY2g0a1pMOWlsV3prQ3dfdmF4aFg4Mlk1U0prV3AwQmRjS3U0d0pqb1gtSWEtSGs5X3lJM3JlMU5JMGlUbkxKMGVzWm5VaGlkQVJwbWZvZFo50gHXAUFVX3lxTE5DRzZBaEVnb2prTkdvcnpIcC02M1VxU0hjNmpCSDUxYWZkeWZQeDBNYlNSWm9xVWxZZ0ZCQmYwWHVsc1dMSjM2QnR3YkxqNVYzSFQ3M0I4X3F5cEFxMXJXYnhoOGVvMmEwS2ZCSndIVFlwMWhoSXFBX3laV3pxM2Q5b3doclp5elN6X0JCV2xKVllXY2ZjaW5EUEpqMWktYlNXMmNYLVZRcml3VldVYzVaREFtancwcUVMVGd1ZzZ1Z0FQaUdSb1pMX2M1QnVyd2s3eVJKM1Nr?oc=5",
+            "date": "Sun, 26 Oct 2025 07:00:00 GMT",
+            "source": "Google News",
+            "league": "Badminton latest sports news"
+          }
+        ]
+      }
+    },
+    "sp_cricket": {
+      "fetchedAt": "2026-02-28T09:39:12.478Z",
+      "highlights": [],
+      "news": [
+        {
+          "type": "news",
+          "title": "Men's T20 World Cup 2026 fixtures and results: England, India, Pakistan, South Africa, West Indies and more - Sky Sports",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbzVpZDd6ODBHVGY5RVJka3FBV1NINnBmekRvaXR5bjJoT21JX0h4VWlQRTRFcUphTHNnejVSOHN2cTF6WTR2NnkzRE9RUE9VR2ZvS0RYb2RBYWpvRWZTUlhQSUlNN1JxSkh5RTdHaVZYVkdGVUlGenRiVGFURUtiWkVqU2l4MXRTc295bUpHUmVmUGFmWGpwc3FYdjJkSW9DbWs0cHczR2p4c3ZPLUswZFlGTGltMDRkcG9rc2tTVXRMZlV6LUozN1hCMVQ4V1NpX0h2MGd6QVFMREVESUpha2RYWjF3WElvT09XcE1R?oc=5",
+          "date": "Sat, 28 Feb 2026 06:56:12 GMT",
+          "source": "Google News",
+          "league": "Cricket latest sports news"
+        },
+        {
+          "type": "news",
+          "title": "New Zealand pacer Matt Henry granted parental leave, leaving for home after England match - The Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOTJhODRVYm9NSm5YV0E3d1ROOVB6SFJ3bzQtWWlyZ2pmYXVfeTVXMVdZVmJvNFRNanBrVzZaUHZNOVpMRnhSTTNwSDc3QmtQbGlJd2xQNE1nQmFmTEFlaFlWeEFRVGo1RkRoQVhadlVRWnhYZC11VXZUVFpNclNORzJ2Sk14b3lVT2gxWWMxRjh5OEdrMVFXTC1sX1FMUDZYa3FjUzVrcjBHYjNYd2dn0gG2AUFVX3lxTE11akhnWEFCbnZhdjhhQTloVHVqX3ZYenVyeWJJVzJsSGNKcm5aaVVIc2RzTFpjQVdQcU4yU3o3WHgxaDZSTnJnOW0zYUUxdEp4cElmMlZwWFptNkJ1Z1hkME5Ga2daY19uYUh5aVJ0WFpOMjR1Wkg2NDNINHRTUjcyLV9BQjc4QldxUTNiWFI1OFJJU1BRQkVWRTVlbEg0VVRiZnRfNlhOOUVyelBVLUhlWnZVWFhR?oc=5",
+          "date": "Fri, 27 Feb 2026 18:47:57 GMT",
+          "source": "Google News",
+          "league": "Cricket latest sports news"
+        },
+        {
+          "type": "news",
+          "title": "Rinku Singh’s father passes away after prolonged battle with cancer, cricket world stands with grieving b - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRzdUQ2p6X3NDS3BUbXNwWl9waFItTDk1TTVoN1lFcVMzY2ZXdGpwVDhFc05hREthVm1EQ01JdklKT3V1a2ZCYTQ5aEdOZUx2MllIc0EyQXN2eVdTRU80OWdJUW1KRjlYZjhLNmswWHRST1pTMjdJc3U4enpJRHA5ejRmZU1SdTR3YmE4VFlXajFRVnY5bmFxYjFNaHRtaWFsTjZQTmcyM1JZWWVsdzZRQTZPLTdZREpTdU1wZTdyNGhJNFJ0SUV3R0diaXhPVm85YmdSbTZYRllWSGhVQmpXajR5TE96d9IB6wFBVV95cUxQYzNhbjhhSTl2X3R0UEtHNkxLcDZWN1VlZHBmQ0JqRzY0aWtRNW4yWVRFUGNjUDJVMnlxd0FyaE1oYzVNbE5BSi1LVFcxVVZKN2FySC1KMWJXS0dfSUZzRVpxcXF1LU9wdTBMMS1vSHladk9MT0xYWjlsUTFvY3o5UzY2ZjdtRGNfZ2xRU1RBWmZldlZEYWZQV21GQnpDMW9qSEJ5OThBSzZMYkZDeG0tV21walhMZXVRWGcxNGZQakZYQkdCc3dTc3JoMWM1SEtVWlloVVZjWHZaQ0NBeTlOSUs5R00xNXdDUXlJ?oc=5",
+          "date": "Fri, 27 Feb 2026 03:19:00 GMT",
+          "source": "Google News",
+          "league": "Cricket latest sports news"
+        }
+      ]
+    },
+    "sp_soccer": {
+      "sp_soccer|t:|p:|l:lg_2cf839eb": {
+        "fetchedAt": "2026-02-28T09:41:44.232Z",
+        "highlights": [],
+        "news": [
+          {
+            "type": "news",
+            "title": "Italian clubs on brink of historic Champions League embarrassment - BBC",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56bFNIMlJvdnh6Tkh4U3p3MzBxeWZTZjVVNnpaQk9BRTlzNTBtdl9fLUl4TXcyWWw1Q3djTHBLcG9nazdRVUlBem12cl8ySG4tY3ZOTVpqcV9vZjRxQXltY3JaSlp0Nm8?oc=5",
+            "date": "Tue, 24 Feb 2026 23:56:21 GMT",
+            "source": "Google News",
+            "league": "Italian Serie A"
+          },
+          {
+            "type": "news",
+            "title": "Serie A close to extra UCL spot, but Italy underdog against Germany and Spain - Football Italia",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VaEZRUHJoaWRiZ0VJNnRoVFlUa1dpZUMwMUplRktWaTZTVXFGejE4SHFUUFF6VjU5M1JFVkxreWs3Q0U3Um1LLWlSUExPekoyYjJ6bXZ4emFRcE0zYjBybWx0N1VIZkdwaUlFX2NwX0tKdXliY1NyV0NQUHdqdjDSAYQBQVVfeXFMUEhNLWlXQ0plTzh0Ti1BS2tGY21fclJwYm12Um9KMEN1bnIwWXlWMWFidkR3TTFRRjFwR0hUVjlDUFFWYTUwdi1WMWs2d2tXTUR0NklQZUp3dmV0bEtjWE44VFdfTF9ucUF3Z04wQnZKVFI5ek9oYVI2enB2TjF5amhYVmls?oc=5",
+            "date": "Fri, 27 Feb 2026 10:02:56 GMT",
+            "source": "Google News",
+            "league": "Italian Serie A"
+          },
+          {
+            "type": "news",
+            "title": "Inter-Genoa - Serie A 2025/2026 Statistical Preview - WhoScored.com",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFNTc2pjVW54NUJKZXlfRXMtbVNHN3pSZEJfS0plbk50cW1xUU4tRXdXWlEzYnJYelkzWFJ2bHZ4UjlNaXJUcDNlU2hPYWdBNlFDTjJ6UGlVLWtNRDc5alJWZ3B1M0JDUTRHY0FzY1ZlUG9jVTFtaHZDcVR0QUJ5cUhKLUlyM2NhVHQ2MDVB?oc=5",
+            "date": "Sat, 28 Feb 2026 09:35:30 GMT",
+            "source": "Google News",
+            "league": "Italian Serie A"
+          }
+        ]
+      }
+    }
+  }
 }

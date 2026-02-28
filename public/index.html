@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sports One | Module 1</title>
+  <title>Sports One</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <main class="app">
     <header class="app-header">
       <h1>Sports One</h1>
-      <p>Track your favorite teams and sportspersons in one place.</p>
+      <p>Your sports world in one place.</p>
       <p id="user-pill" class="user-pill hidden"></p>
     </header>
 
@@ -48,42 +48,101 @@
     </section>
 
     <section id="screen-sports" class="screen hidden">
-      <h2>Select Sports</h2>
-      <p>Choose at least one sport.</p>
-      <div id="sports-list" class="chips"></div>
-      <div class="row">
-        <button data-action="to-favorites">Continue</button>
-        <button class="secondary" data-action="logout">Log out</button>
+      <div class="screen-head">
+        <div>
+          <h2>Select Sports</h2>
+          <p class="screen-subtitle">Choose at least one sport. Popular sports appear first; use search to find others.</p>
+        </div>
+        <p id="selected-count" class="count-pill">0 selected</p>
       </div>
-    </section>
-
-    <section id="screen-favorites" class="screen hidden">
-      <h2>Select Favorites</h2>
-      <p>Pick teams and players inside your selected sports.</p>
-      <div id="favorites-wrap" class="stack"></div>
+      <label>
+        Search sport
+        <input type="text" id="sport-search" placeholder="Try: rugby, badminton, athletics" autocomplete="off" />
+      </label>
+      <div id="selected-section" class="selected-section hidden">
+        <p class="muted section-label">Selected sports</p>
+        <div id="selected-list" class="chips"></div>
+      </div>
+      <p id="sports-empty" class="muted hidden"></p>
+      <div id="sports-list" class="chips"></div>
+      <button class="text-link" data-action="open-sport-request" type="button">Can't find your sport?</button>
       <div class="row">
-        <button data-action="to-review">Review</button>
-        <button class="secondary" data-action="back-to-sports">Back</button>
+        <button data-action="to-review">Continue</button>
+        <button class="secondary" data-action="logout">Log out</button>
       </div>
     </section>
 
     <section id="screen-review" class="screen hidden">
       <h2>Review Interests</h2>
+      <p class="screen-subtitle">Confirm your selected sports before saving.</p>
       <div id="review-content" class="review"></div>
       <div class="row">
         <button data-action="save-interests">Finish Setup</button>
-        <button class="secondary" data-action="back-to-favorites">Back</button>
+        <button class="secondary" data-action="back-to-sports">Back</button>
       </div>
     </section>
 
     <section id="screen-home" class="screen hidden">
-      <h2>Home</h2>
-      <p>Your Module 1 setup is complete. Module 2 home feed comes next.</p>
-      <div id="saved-summary" class="review"></div>
+      <div class="screen-head">
+        <div>
+          <h2>Home</h2>
+          <p class="screen-subtitle">Your personalized sports feed.</p>
+        </div>
+        <div class="row compact">
+          <button class="secondary" data-action="go-account">Account</button>
+        </div>
+      </div>
+
+      <div id="home-feed" class="stack"></div>
+      <div id="home-feed-empty" class="muted hidden">No sports selected yet. Add sports to personalize your feed.</div>
+      <div id="home-feed-sentinel" class="home-sentinel hidden">Loading more sports sections...</div>
+
+      <button class="text-link" data-action="edit-interests" type="button">Add sports</button>
       <div class="row">
-        <button data-action="edit-interests">Edit interests</button>
         <button class="secondary" data-action="logout">Log out</button>
       </div>
+    </section>
+
+    <section id="screen-sport-interests" class="screen hidden">
+      <h2 id="sport-interests-title">Sport Interests</h2>
+      <p class="screen-subtitle">Add favorite teams, players, and leagues for this sport.</p>
+
+      <div id="sport-interest-groups" class="stack"></div>
+
+      <div class="row">
+        <button data-action="save-sport-interests">Save</button>
+        <button class="secondary" data-action="cancel-sport-interests">Back</button>
+      </div>
+    </section>
+
+    <section id="screen-account" class="screen hidden">
+      <h2>Account</h2>
+      <p class="screen-subtitle">Manage your profile and navigation.</p>
+      <div id="account-summary" class="review"></div>
+      <div class="row">
+        <button data-action="back-home">Back to Home</button>
+        <button class="secondary" data-action="edit-interests">Edit sports</button>
+        <button class="secondary" data-action="logout">Log out</button>
+      </div>
+    </section>
+
+    <section id="screen-sport-request" class="screen hidden">
+      <h2>Request A Sport</h2>
+      <p>Can't find it in catalog? Send us a request and we will review it.</p>
+      <form id="sport-request-form" class="stack">
+        <label>
+          Sport name
+          <input type="text" id="sport-request-name" placeholder="Enter sport name" required />
+        </label>
+        <label>
+          Why do you want it? (optional)
+          <input type="text" id="sport-request-reason" placeholder="Example: I follow this league weekly" />
+        </label>
+        <div class="row">
+          <button type="submit">Submit request</button>
+          <button type="button" class="secondary" data-action="back-to-sports-from-request">Back</button>
+        </div>
+      </form>
     </section>
   </main>
 
